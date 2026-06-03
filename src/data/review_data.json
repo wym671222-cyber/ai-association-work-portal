@@ -1,0 +1,2412 @@
+{
+  "metadata": {
+    "company": "深圳市安居建业投资运营有限公司",
+    "survey_date": "2026年5月29日",
+    "review_date": "2026年6月3日",
+    "raw_file": "20260529_AI认知与需求调研_原始结果.xlsx",
+    "summary_file": "20260529_AI认知与需求调研_汇总结果.xlsx",
+    "contact_file": "安居建业公司通讯录.xlsx",
+    "sample_n": 134,
+    "summary_n": 134,
+    "leader_n": 6,
+    "middle_n": 12,
+    "formal_unit_count": 23,
+    "center_count": 14,
+    "method_notes": [
+      "总体多选题人数与比例使用汇总结果表。",
+      "部门、岗位、交叉分析与开放题主题使用原始结果表。",
+      "AI使用频率均分：原始结果表为 3.13，汇总结果表为 3.16；材料中并列标注口径差异。",
+      "公司领导定义为部门=领导班子；中层领导定义为岗位包含中心总经理、中心副总经理或中心总经理助理。",
+      "领导及中层意见仅按群体匿名归纳，不保留个人识别信息或完整个人答卷。",
+      "通讯录仅用于核对组织层级，不作为分析结论来源。"
+    ]
+  },
+  "overall": {
+    "n": 134,
+    "avg_score": 44.43,
+    "avg_freq_raw": 3.13,
+    "avg_freq_summary": 3.16,
+    "high_freq_pct": 44.0,
+    "low_freq_pct": 30.6,
+    "current_usage": [
+      {
+        "label": "文案创作（报告、方案、脚本等）",
+        "short": "文案创作",
+        "count": 98,
+        "percent": 73.13
+      },
+      {
+        "label": "学习知识与培训辅助",
+        "short": "学习培训",
+        "count": 74,
+        "percent": 55.22
+      },
+      {
+        "label": "数据处理（分析、可视化等）",
+        "short": "数据处理",
+        "count": 68,
+        "percent": 50.75
+      },
+      {
+        "label": "信息管理与经验复用（检索、标签、知识库等）",
+        "short": "信息管理",
+        "count": 64,
+        "percent": 47.76
+      },
+      {
+        "label": "多媒体创作（图像/视频/音乐等）",
+        "short": "多媒体创作",
+        "count": 35,
+        "percent": 26.12
+      },
+      {
+        "label": "流程协作（项目跟踪、流程优化等）",
+        "short": "流程协作",
+        "count": 23,
+        "percent": 17.16
+      }
+    ],
+    "learning_focus": [
+      {
+        "label": "AI办公技巧（文案、表格、PPT等效率提升）",
+        "short": "AI办公技巧",
+        "count": 98,
+        "percent": 73.13
+      },
+      {
+        "label": "工作场景挖掘（发现AI可解决的工作问题）",
+        "short": "业务场景挖掘",
+        "count": 62,
+        "percent": 46.27
+      },
+      {
+        "label": "AI工具进阶与自动化（搭建工作自动化流程）",
+        "short": "进阶自动化",
+        "count": 39,
+        "percent": 29.1
+      },
+      {
+        "label": "提示词设计与实战（让AI准确理解需求）",
+        "short": "提示词实战",
+        "count": 38,
+        "percent": 28.36
+      },
+      {
+        "label": "AI输出甄别与优化（判断并改进回答质量）",
+        "short": "输出甄别",
+        "count": 38,
+        "percent": 28.36
+      },
+      {
+        "label": "AI工具选型与组合（匹配场景选工具）",
+        "short": "工具选型",
+        "count": 35,
+        "percent": 26.12
+      },
+      {
+        "label": "AI学习路径规划（按需制定个性化学习计划）",
+        "short": "学习路径",
+        "count": 29,
+        "percent": 21.64
+      },
+      {
+        "label": "数据安全与合规（保护企业数据，遵守法规）",
+        "short": "安全合规",
+        "count": 22,
+        "percent": 16.42
+      }
+    ],
+    "barriers": [
+      {
+        "label": "现有工作流程和系统难以与AI集成",
+        "short": "流程系统集成难",
+        "count": 74,
+        "percent": 55.22
+      },
+      {
+        "label": "缺乏相关技能和知识",
+        "short": "技能知识不足",
+        "count": 72,
+        "percent": 53.73
+      },
+      {
+        "label": "数据安全和隐私担忧",
+        "short": "数据安全担忧",
+        "count": 72,
+        "percent": 53.73
+      },
+      {
+        "label": "对AI的可靠性和准确性存疑",
+        "short": "可靠性准确性存疑",
+        "count": 70,
+        "percent": 52.24
+      },
+      {
+        "label": "AI工具成本过高",
+        "short": "工具成本较高",
+        "count": 42,
+        "percent": 31.34
+      },
+      {
+        "label": "公司对工作中应用AI的原则与边界不明确",
+        "short": "原则边界不清",
+        "count": 22,
+        "percent": 16.42
+      }
+    ],
+    "contest": [
+      {
+        "label": "一般",
+        "short": "一般",
+        "count": 58,
+        "percent": 43.28
+      },
+      {
+        "label": "愿意",
+        "short": "愿意",
+        "count": 41,
+        "percent": 30.6
+      },
+      {
+        "label": "非常愿意",
+        "short": "非常愿意",
+        "count": 25,
+        "percent": 18.66
+      },
+      {
+        "label": "不愿意",
+        "short": "不愿意",
+        "count": 11,
+        "percent": 8.21
+      }
+    ],
+    "tool_gaps": [
+      {
+        "label": "智能体",
+        "full_label": "智能体类 （如OpenClaw、work buddy等）",
+        "familiarity": 1.73,
+        "willingness": 3.96,
+        "gap": 2.23
+      },
+      {
+        "label": "自动化",
+        "full_label": "自动化执行类 （如n8n、Coze等）",
+        "familiarity": 1.43,
+        "willingness": 3.57,
+        "gap": 2.14
+      },
+      {
+        "label": "专业辅助",
+        "full_label": "专业辅助工具类 （如投资/财务/法务等）",
+        "familiarity": 1.56,
+        "willingness": 3.53,
+        "gap": 1.97
+      },
+      {
+        "label": "知识管理",
+        "full_label": "知识管理类 （如ima、notebookLM等）",
+        "familiarity": 1.84,
+        "willingness": 3.69,
+        "gap": 1.85
+      },
+      {
+        "label": "图像/视频",
+        "full_label": "图像/视频多媒体类 （如即梦、banana等）",
+        "familiarity": 1.93,
+        "willingness": 3.6,
+        "gap": 1.67
+      },
+      {
+        "label": "办公协同",
+        "full_label": "办公协同类 （如WPS AI、多维表格等）",
+        "familiarity": 2.75,
+        "willingness": 4.04,
+        "gap": 1.29
+      },
+      {
+        "label": "通用问答",
+        "full_label": "通用问答助手类 （如ChatGPT、豆包等）",
+        "familiarity": 3.62,
+        "willingness": 4.03,
+        "gap": 0.41
+      }
+    ]
+  },
+  "groups": {
+    "company_leaders": {
+      "n": 6,
+      "avg_score": 38.33,
+      "avg_freq": 2.67,
+      "high_freq_pct": 16.7,
+      "low_freq_pct": 33.3,
+      "current_usage": [
+        {
+          "label": "信息管理与经验复用（检索、标签、知识库等）",
+          "short": "信息管理",
+          "count": 5,
+          "percent": 83.3
+        },
+        {
+          "label": "数据处理（分析、可视化等）",
+          "short": "数据处理",
+          "count": 4,
+          "percent": 66.7
+        },
+        {
+          "label": "文案创作（报告、方案、脚本等）",
+          "short": "文案创作",
+          "count": 3,
+          "percent": 50.0
+        },
+        {
+          "label": "学习知识与培训辅助",
+          "short": "学习培训",
+          "count": 3,
+          "percent": 50.0
+        },
+        {
+          "label": "流程协作（项目跟踪、流程优化等）",
+          "short": "流程协作",
+          "count": 1,
+          "percent": 16.7
+        },
+        {
+          "label": "多媒体创作（图像/视频/音乐等）",
+          "short": "多媒体创作",
+          "count": 0,
+          "percent": 0.0
+        }
+      ],
+      "learning_focus": [
+        {
+          "label": "工作场景挖掘（发现AI可解决的工作问题）",
+          "short": "业务场景挖掘",
+          "count": 3,
+          "percent": 50.0
+        },
+        {
+          "label": "提示词设计与实战（让AI准确理解需求）",
+          "short": "提示词实战",
+          "count": 3,
+          "percent": 50.0
+        },
+        {
+          "label": "AI工具选型与组合（匹配场景选工具）",
+          "short": "工具选型",
+          "count": 3,
+          "percent": 50.0
+        },
+        {
+          "label": "数据安全与合规（保护企业数据，遵守法规）",
+          "short": "安全合规",
+          "count": 3,
+          "percent": 50.0
+        },
+        {
+          "label": "AI办公技巧（文案、表格、PPT等效率提升）",
+          "short": "AI办公技巧",
+          "count": 2,
+          "percent": 33.3
+        },
+        {
+          "label": "AI输出甄别与优化（判断并改进回答质量）",
+          "short": "输出甄别",
+          "count": 2,
+          "percent": 33.3
+        },
+        {
+          "label": "AI学习路径规划（按需制定个性化学习计划）",
+          "short": "学习路径",
+          "count": 1,
+          "percent": 16.7
+        },
+        {
+          "label": "AI工具进阶与自动化（搭建工作自动化流程）",
+          "short": "进阶自动化",
+          "count": 0,
+          "percent": 0.0
+        }
+      ],
+      "barriers": [
+        {
+          "label": "对AI的可靠性和准确性存疑",
+          "short": "可靠性准确性存疑",
+          "count": 4,
+          "percent": 66.7
+        },
+        {
+          "label": "现有工作流程和系统难以与AI集成",
+          "short": "流程系统集成难",
+          "count": 3,
+          "percent": 50.0
+        },
+        {
+          "label": "数据安全和隐私担忧",
+          "short": "数据安全担忧",
+          "count": 3,
+          "percent": 50.0
+        },
+        {
+          "label": "缺乏相关技能和知识",
+          "short": "技能知识不足",
+          "count": 2,
+          "percent": 33.3
+        },
+        {
+          "label": "公司对工作中应用AI的原则与边界不明确",
+          "short": "原则边界不清",
+          "count": 2,
+          "percent": 33.3
+        },
+        {
+          "label": "AI工具成本过高",
+          "short": "工具成本较高",
+          "count": 0,
+          "percent": 0.0
+        }
+      ]
+    },
+    "middle_leaders": {
+      "n": 12,
+      "avg_score": 47.42,
+      "avg_freq": 3.25,
+      "high_freq_pct": 41.7,
+      "low_freq_pct": 16.7,
+      "current_usage": [
+        {
+          "label": "文案创作（报告、方案、脚本等）",
+          "short": "文案创作",
+          "count": 9,
+          "percent": 75.0
+        },
+        {
+          "label": "学习知识与培训辅助",
+          "short": "学习培训",
+          "count": 8,
+          "percent": 66.7
+        },
+        {
+          "label": "信息管理与经验复用（检索、标签、知识库等）",
+          "short": "信息管理",
+          "count": 8,
+          "percent": 66.7
+        },
+        {
+          "label": "数据处理（分析、可视化等）",
+          "short": "数据处理",
+          "count": 7,
+          "percent": 58.3
+        },
+        {
+          "label": "流程协作（项目跟踪、流程优化等）",
+          "short": "流程协作",
+          "count": 2,
+          "percent": 16.7
+        },
+        {
+          "label": "多媒体创作（图像/视频/音乐等）",
+          "short": "多媒体创作",
+          "count": 1,
+          "percent": 8.3
+        }
+      ],
+      "learning_focus": [
+        {
+          "label": "AI办公技巧（文案、表格、PPT等效率提升）",
+          "short": "AI办公技巧",
+          "count": 8,
+          "percent": 66.7
+        },
+        {
+          "label": "AI学习路径规划（按需制定个性化学习计划）",
+          "short": "学习路径",
+          "count": 5,
+          "percent": 41.7
+        },
+        {
+          "label": "AI工具进阶与自动化（搭建工作自动化流程）",
+          "short": "进阶自动化",
+          "count": 4,
+          "percent": 33.3
+        },
+        {
+          "label": "提示词设计与实战（让AI准确理解需求）",
+          "short": "提示词实战",
+          "count": 4,
+          "percent": 33.3
+        },
+        {
+          "label": "AI工具选型与组合（匹配场景选工具）",
+          "short": "工具选型",
+          "count": 4,
+          "percent": 33.3
+        },
+        {
+          "label": "工作场景挖掘（发现AI可解决的工作问题）",
+          "short": "业务场景挖掘",
+          "count": 3,
+          "percent": 25.0
+        },
+        {
+          "label": "AI输出甄别与优化（判断并改进回答质量）",
+          "short": "输出甄别",
+          "count": 3,
+          "percent": 25.0
+        },
+        {
+          "label": "数据安全与合规（保护企业数据，遵守法规）",
+          "short": "安全合规",
+          "count": 3,
+          "percent": 25.0
+        }
+      ],
+      "barriers": [
+        {
+          "label": "现有工作流程和系统难以与AI集成",
+          "short": "流程系统集成难",
+          "count": 7,
+          "percent": 58.3
+        },
+        {
+          "label": "缺乏相关技能和知识",
+          "short": "技能知识不足",
+          "count": 7,
+          "percent": 58.3
+        },
+        {
+          "label": "对AI的可靠性和准确性存疑",
+          "short": "可靠性准确性存疑",
+          "count": 6,
+          "percent": 50.0
+        },
+        {
+          "label": "AI工具成本过高",
+          "short": "工具成本较高",
+          "count": 5,
+          "percent": 41.7
+        },
+        {
+          "label": "公司对工作中应用AI的原则与边界不明确",
+          "short": "原则边界不清",
+          "count": 4,
+          "percent": 33.3
+        },
+        {
+          "label": "数据安全和隐私担忧",
+          "short": "数据安全担忧",
+          "count": 3,
+          "percent": 25.0
+        }
+      ]
+    },
+    "anonymous_opinions": {
+      "公司领导": [
+        "先做基础培训，再挖掘可能性。",
+        "注意公司信息保密。",
+        "关注投资、成本、设计等专业能力辅助提升。",
+        "支持给予非行政化兴趣协会自主探索空间，鼓励专业同事参与。",
+        "可通过 AI 大赛形成成果展示。"
+      ],
+      "中层领导": [
+        "培训应分层推进：全员启蒙、岗位实操、骨干进阶、常态复训。",
+        "从小场景入手，贴合业务，优先解决实际工作问题。",
+        "关注知识共享、重复工作、跨专业整合和跟踪督办。",
+        "强调实用性、信息统计、文件识别和流程优化。"
+      ]
+    }
+  },
+  "centers": [
+    {
+      "center": "营销管理中心",
+      "unit_count": 2,
+      "sample_n": 16,
+      "avg_freq": 2.38,
+      "avg_score": 41.69,
+      "top_scenes": [
+        "项目宣传图文与创意生成",
+        "业务资料库与报告润色",
+        "营销话术与方案优化"
+      ],
+      "evidence_status": "有问卷证据"
+    },
+    {
+      "center": "项目管理单元",
+      "unit_count": 4,
+      "sample_n": 15,
+      "avg_freq": 2.67,
+      "avg_score": 44.4,
+      "top_scenes": [
+        "汇报材料、方案与函件初稿",
+        "流程跟踪与工作提醒",
+        "培训资料与可视化表格"
+      ],
+      "evidence_status": "有问卷证据"
+    },
+    {
+      "center": "龙岗安城投公司",
+      "unit_count": 5,
+      "sample_n": 13,
+      "avg_freq": 3.23,
+      "avg_score": 44.38,
+      "top_scenes": [
+        "工程数据整理与汇报文件",
+        "测算、数据统计与逻辑校核",
+        "报告、议案与PPT辅助"
+      ],
+      "evidence_status": "有问卷证据"
+    },
+    {
+      "center": "产品管理中心",
+      "unit_count": 1,
+      "sample_n": 12,
+      "avg_freq": 2.92,
+      "avg_score": 38.92,
+      "top_scenes": [
+        "设计方案多版本辅助比选",
+        "项目事项跟踪与资料归档",
+        "设计图纸与规范问题辅助检查"
+      ],
+      "evidence_status": "有问卷证据"
+    },
+    {
+      "center": "人力资源中心",
+      "unit_count": 1,
+      "sample_n": 10,
+      "avg_freq": 3.9,
+      "avg_score": 50.2,
+      "top_scenes": [
+        "人力数据分析与可视化",
+        "HR制度与员工高频问题问答",
+        "培训课件、制度通知与纪要初稿"
+      ],
+      "evidence_status": "有问卷证据"
+    },
+    {
+      "center": "工程管理中心",
+      "unit_count": 1,
+      "sample_n": 9,
+      "avg_freq": 3.22,
+      "avg_score": 41.44,
+      "top_scenes": [
+        "工程报告完善与可视化",
+        "工程文件自动识别与整理",
+        "线上流程与数据处理自动化"
+      ],
+      "evidence_status": "有问卷证据"
+    },
+    {
+      "center": "成本合约中心",
+      "unit_count": 1,
+      "sample_n": 9,
+      "avg_freq": 3.56,
+      "avg_score": 46.89,
+      "top_scenes": [
+        "报告函件与PPT初稿",
+        "成本分析、清标与清单复核",
+        "长报告研读与核心结论提炼"
+      ],
+      "evidence_status": "有问卷证据"
+    },
+    {
+      "center": "综合管理中心",
+      "unit_count": 1,
+      "sample_n": 8,
+      "avg_freq": 2.75,
+      "avg_score": 41.5,
+      "top_scenes": [
+        "公文、通知与文稿初稿",
+        "OA材料、制度与党建知识库",
+        "审批材料辅助与低敏场景规范"
+      ],
+      "evidence_status": "有问卷证据"
+    },
+    {
+      "center": "财务管理中心",
+      "unit_count": 1,
+      "sample_n": 8,
+      "avg_freq": 3.5,
+      "avg_score": 46.0,
+      "top_scenes": [
+        "财务数据整合与报表分析",
+        "流程审批与记账辅助",
+        "银企对账单归档自动化"
+      ],
+      "evidence_status": "有问卷证据"
+    },
+    {
+      "center": "商办事业部",
+      "unit_count": 2,
+      "sample_n": 7,
+      "avg_freq": 3.14,
+      "avg_score": 44.14,
+      "top_scenes": [
+        "日常报表与市场信息汇总",
+        "文档协作与数据处理",
+        "流程界面与数据一体化辅助"
+      ],
+      "evidence_status": "有问卷证据"
+    },
+    {
+      "center": "运营管理中心",
+      "unit_count": 1,
+      "sample_n": 7,
+      "avg_freq": 3.71,
+      "avg_score": 47.57,
+      "top_scenes": [
+        "周报与报告材料收集编制",
+        "部门知识库与共性知识共享",
+        "跟踪督办与审批流辅助"
+      ],
+      "evidence_status": "有问卷证据"
+    },
+    {
+      "center": "风险法务中心",
+      "unit_count": 1,
+      "sample_n": 7,
+      "avg_freq": 3.43,
+      "avg_score": 46.86,
+      "top_scenes": [
+        "合同及汇报材料辅助",
+        "供应商关系与异常预警分析",
+        "采购成本计划流程数据抓取"
+      ],
+      "evidence_status": "有问卷证据"
+    },
+    {
+      "center": "城市更新事业部",
+      "unit_count": 1,
+      "sample_n": 4,
+      "avg_freq": 4.25,
+      "avg_score": 53.0,
+      "top_scenes": [
+        "政策沟通与报告材料辅助",
+        "产权与历史数据辅助梳理",
+        "补偿方案测算辅助"
+      ],
+      "evidence_status": "有问卷证据"
+    },
+    {
+      "center": "投资发展中心",
+      "unit_count": 1,
+      "sample_n": 3,
+      "avg_freq": 3.33,
+      "avg_score": 56.0,
+      "top_scenes": [
+        "项目信息收集汇总与核验",
+        "投资报告与文字材料辅助"
+      ],
+      "evidence_status": "有问卷证据"
+    }
+  ],
+  "units": [
+    {
+      "center": "投资发展中心",
+      "unit": "投资发展中心",
+      "survey_dept": "投资发展中心",
+      "n": 3,
+      "avg_score": 56.0,
+      "avg_freq": 3.33,
+      "evidence_status": "有问卷证据",
+      "text_response_count": 5
+    },
+    {
+      "center": "营销管理中心",
+      "unit": "营销管理中心",
+      "survey_dept": "营销管理中心",
+      "n": 7,
+      "avg_score": 46.71,
+      "avg_freq": 2.86,
+      "evidence_status": "有问卷证据",
+      "text_response_count": 11
+    },
+    {
+      "center": "营销管理中心",
+      "unit": "项目营销团队",
+      "survey_dept": "项目营销组（虚拟）",
+      "mapping": "问卷中的“项目营销组（虚拟）”映射为正式单位“项目营销团队”",
+      "n": 9,
+      "avg_score": 37.78,
+      "avg_freq": 2.0,
+      "evidence_status": "有问卷证据",
+      "text_response_count": 16
+    },
+    {
+      "center": "产品管理中心",
+      "unit": "产品管理中心",
+      "survey_dept": "产品管理中心",
+      "n": 12,
+      "avg_score": 38.92,
+      "avg_freq": 2.92,
+      "evidence_status": "有问卷证据",
+      "text_response_count": 23
+    },
+    {
+      "center": "工程管理中心",
+      "unit": "工程管理中心",
+      "survey_dept": "工程管理中心",
+      "n": 9,
+      "avg_score": 41.44,
+      "avg_freq": 3.22,
+      "evidence_status": "有问卷证据",
+      "text_response_count": 9
+    },
+    {
+      "center": "成本合约中心",
+      "unit": "成本合约中心",
+      "survey_dept": "成本合约中心",
+      "n": 9,
+      "avg_score": 46.89,
+      "avg_freq": 3.56,
+      "evidence_status": "有问卷证据",
+      "text_response_count": 15
+    },
+    {
+      "center": "财务管理中心",
+      "unit": "财务管理中心",
+      "survey_dept": "财务管理中心",
+      "n": 8,
+      "avg_score": 46.0,
+      "avg_freq": 3.5,
+      "evidence_status": "有问卷证据",
+      "text_response_count": 11
+    },
+    {
+      "center": "风险法务中心",
+      "unit": "风险法务中心",
+      "survey_dept": "风险法务中心",
+      "n": 7,
+      "avg_score": 46.86,
+      "avg_freq": 3.43,
+      "evidence_status": "有问卷证据",
+      "text_response_count": 9
+    },
+    {
+      "center": "运营管理中心",
+      "unit": "运营管理中心",
+      "survey_dept": "运营管理中心",
+      "n": 7,
+      "avg_score": 47.57,
+      "avg_freq": 3.71,
+      "evidence_status": "有问卷证据",
+      "text_response_count": 13
+    },
+    {
+      "center": "综合管理中心",
+      "unit": "综合管理中心",
+      "survey_dept": "综合管理中心",
+      "n": 8,
+      "avg_score": 41.5,
+      "avg_freq": 2.75,
+      "evidence_status": "有问卷证据",
+      "text_response_count": 13
+    },
+    {
+      "center": "人力资源中心",
+      "unit": "人力资源中心",
+      "survey_dept": "人力资源中心",
+      "n": 10,
+      "avg_score": 50.2,
+      "avg_freq": 3.9,
+      "evidence_status": "有问卷证据",
+      "text_response_count": 20
+    },
+    {
+      "center": "商办事业部",
+      "unit": "商办事业部",
+      "survey_dept": "商办事业部",
+      "n": 7,
+      "avg_score": 44.14,
+      "avg_freq": 3.14,
+      "evidence_status": "有问卷证据",
+      "text_response_count": 11
+    },
+    {
+      "center": "商办事业部",
+      "unit": "超总项目公司",
+      "survey_dept": null,
+      "n": 0,
+      "avg_score": null,
+      "avg_freq": null,
+      "evidence_status": "待访谈验证",
+      "text_response_count": 0
+    },
+    {
+      "center": "城市更新事业部",
+      "unit": "城市更新事业部",
+      "survey_dept": "城市更新事业部",
+      "n": 4,
+      "avg_score": 53.0,
+      "avg_freq": 4.25,
+      "evidence_status": "有问卷证据",
+      "text_response_count": 8
+    },
+    {
+      "center": "龙岗安城投公司",
+      "unit": "前期开发部",
+      "survey_dept": "前期开发部",
+      "n": 2,
+      "avg_score": 48.5,
+      "avg_freq": 3.0,
+      "evidence_status": "有问卷证据",
+      "text_response_count": 3
+    },
+    {
+      "center": "龙岗安城投公司",
+      "unit": "工程管理部",
+      "survey_dept": "工程管理部",
+      "n": 4,
+      "avg_score": 41.5,
+      "avg_freq": 3.0,
+      "evidence_status": "有问卷证据",
+      "text_response_count": 4
+    },
+    {
+      "center": "龙岗安城投公司",
+      "unit": "成本合约部",
+      "survey_dept": "成本合约部",
+      "n": 4,
+      "avg_score": 48.5,
+      "avg_freq": 3.5,
+      "evidence_status": "有问卷证据",
+      "text_response_count": 7
+    },
+    {
+      "center": "龙岗安城投公司",
+      "unit": "综合管理部",
+      "survey_dept": "综合管理部",
+      "n": 2,
+      "avg_score": 32.0,
+      "avg_freq": 3.0,
+      "evidence_status": "有问卷证据",
+      "text_response_count": 3
+    },
+    {
+      "center": "龙岗安城投公司",
+      "unit": "财务风控部",
+      "survey_dept": "财务风控部",
+      "n": 1,
+      "avg_score": 56.0,
+      "avg_freq": 4.0,
+      "evidence_status": "有问卷证据",
+      "text_response_count": 2
+    },
+    {
+      "center": "项目管理单元",
+      "unit": "岳盟项目部",
+      "survey_dept": "岳盟项目部",
+      "n": 7,
+      "avg_score": 47.71,
+      "avg_freq": 2.86,
+      "evidence_status": "有问卷证据",
+      "text_response_count": 11
+    },
+    {
+      "center": "项目管理单元",
+      "unit": "春和府项目部",
+      "survey_dept": "春和府项目部",
+      "n": 4,
+      "avg_score": 43.5,
+      "avg_freq": 2.5,
+      "evidence_status": "有问卷证据",
+      "text_response_count": 7
+    },
+    {
+      "center": "项目管理单元",
+      "unit": "岁宝项目部",
+      "survey_dept": "岁宝项目部",
+      "n": 3,
+      "avg_score": 38.67,
+      "avg_freq": 2.0,
+      "evidence_status": "有问卷证据",
+      "text_response_count": 4
+    },
+    {
+      "center": "项目管理单元",
+      "unit": "木头龙项目部",
+      "survey_dept": "木头龙项目部",
+      "n": 1,
+      "avg_score": 42.0,
+      "avg_freq": 4.0,
+      "evidence_status": "有问卷证据",
+      "text_response_count": 2
+    }
+  ],
+  "scenes": [
+    {
+      "center": "投资发展中心",
+      "unit": "投资发展中心",
+      "survey_dept": "投资发展中心",
+      "sample_n": 3,
+      "scene": "项目信息收集汇总与核验",
+      "pain_point": "项目信息收集汇总与核验",
+      "ai_method": "快速汇总公开信息、形成核验清单，由业务人员复核真实性和完整性",
+      "output": "项目信息摘要、核验清单",
+      "risk": "中",
+      "human_review": "必须人工复核",
+      "priority": "高",
+      "owner": "待单位确认",
+      "metric": "信息整理时长、核验问题发现数",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 2,
+      "evidence_quote": "在收集整理项目信息时，可短时间内形成汇总整理，但有待核实真实性、全面性"
+    },
+    {
+      "center": "投资发展中心",
+      "unit": "投资发展中心",
+      "survey_dept": "投资发展中心",
+      "sample_n": 3,
+      "scene": "投资报告与文字材料辅助",
+      "pain_point": "投资报告与文字材料辅助",
+      "ai_method": "辅助搭建报告结构、润色文字并提炼核心结论",
+      "output": "报告初稿、摘要",
+      "risk": "低",
+      "human_review": "人工抽检或定稿",
+      "priority": "高",
+      "owner": "待单位确认",
+      "metric": "初稿形成时长、人工修改轮次",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 2,
+      "evidence_quote": "通用文本编辑"
+    },
+    {
+      "center": "营销管理中心",
+      "unit": "营销管理中心",
+      "survey_dept": "营销管理中心",
+      "sample_n": 7,
+      "scene": "营销话术与方案优化",
+      "pain_point": "营销话术与方案优化",
+      "ai_method": "生成多版本话术、方案框架和创意方向，人工审核品牌与合规",
+      "output": "话术库、方案初稿",
+      "risk": "中",
+      "human_review": "必须人工复核",
+      "priority": "高",
+      "owner": "待单位确认",
+      "metric": "方案准备时长、采用版本数",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 2,
+      "evidence_quote": "话术优化，方案优化"
+    },
+    {
+      "center": "营销管理中心",
+      "unit": "营销管理中心",
+      "survey_dept": "营销管理中心",
+      "sample_n": 7,
+      "scene": "专业及例行报告生成",
+      "pain_point": "专业及例行报告生成",
+      "ai_method": "汇总数据与材料，生成例行报告初稿和图表说明",
+      "output": "例行报告初稿",
+      "risk": "低",
+      "human_review": "人工抽检或定稿",
+      "priority": "高",
+      "owner": "待单位确认",
+      "metric": "报告编制时长、数据缺漏数",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 2,
+      "evidence_quote": "专业及例行报告的形成"
+    },
+    {
+      "center": "营销管理中心",
+      "unit": "营销管理中心",
+      "survey_dept": "营销管理中心",
+      "sample_n": 7,
+      "scene": "营销流程合规提醒",
+      "pain_point": "营销流程合规提醒",
+      "ai_method": "依据经确认的规则提示关键节点和材料缺项",
+      "output": "流程提醒清单",
+      "risk": "中",
+      "human_review": "必须人工复核",
+      "priority": "高",
+      "owner": "待单位确认",
+      "metric": "遗漏事项数、提醒命中率",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 2,
+      "evidence_quote": "在工作过程中通过AI运用来识别过程的合规性，并以此提醒相关工作流程或制定合理合规可行的工作流，提升工作效率，优化工作结果"
+    },
+    {
+      "center": "营销管理中心",
+      "unit": "项目营销团队",
+      "survey_dept": "项目营销组（虚拟）",
+      "sample_n": 9,
+      "scene": "项目宣传图文与创意生成",
+      "pain_point": "项目宣传图文与创意生成",
+      "ai_method": "生成图文创意、宣传文案和多版本草案，人工审定后使用",
+      "output": "图文草案、创意清单",
+      "risk": "中",
+      "human_review": "必须人工复核",
+      "priority": "高",
+      "owner": "待单位确认",
+      "metric": "创意产出时长、可用方案数",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 4,
+      "evidence_quote": "小红书文案可以通过AI来开阔思路"
+    },
+    {
+      "center": "营销管理中心",
+      "unit": "项目营销团队",
+      "survey_dept": "项目营销组（虚拟）",
+      "sample_n": 9,
+      "scene": "项目及审批进度监控提醒",
+      "pain_point": "项目及审批进度监控提醒",
+      "ai_method": "从结构化台账中识别节点并生成提醒",
+      "output": "节点提醒、异常清单",
+      "risk": "中",
+      "human_review": "必须人工复核",
+      "priority": "中",
+      "owner": "待单位确认",
+      "metric": "逾期事项数、提醒覆盖率",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 1,
+      "evidence_quote": "1、利用AI对项目进度或审批进度进行监控和提醒，提升整体运营效率和处理流程的效率 2、利用AI工具生成员工个人业务数据库，提高资料调取速度和总结归纳能力 3、利用AI工具进行…"
+    },
+    {
+      "center": "营销管理中心",
+      "unit": "项目营销团队",
+      "survey_dept": "项目营销组（虚拟）",
+      "sample_n": 9,
+      "scene": "业务资料库与报告润色",
+      "pain_point": "业务资料库与报告润色",
+      "ai_method": "建立可检索资料库，辅助摘要、报告润色和会议纪要",
+      "output": "资料索引、报告初稿",
+      "risk": "低",
+      "human_review": "人工抽检或定稿",
+      "priority": "高",
+      "owner": "待单位确认",
+      "metric": "资料检索时长、初稿形成时长",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 3,
+      "evidence_quote": "收集整理资料"
+    },
+    {
+      "center": "产品管理中心",
+      "unit": "产品管理中心",
+      "survey_dept": "产品管理中心",
+      "sample_n": 12,
+      "scene": "设计图纸与规范问题辅助检查",
+      "pain_point": "设计图纸与规范问题辅助检查",
+      "ai_method": "辅助识别常见规范、流程和变更问题，专业人员最终复核",
+      "output": "问题清单、复核记录",
+      "risk": "高",
+      "human_review": "必须人工复核",
+      "priority": "高",
+      "owner": "待单位确认",
+      "metric": "复核覆盖率、问题发现数",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 3,
+      "evidence_quote": "AI审图，AI辅助工作流程和部门间的协作"
+    },
+    {
+      "center": "产品管理中心",
+      "unit": "产品管理中心",
+      "survey_dept": "产品管理中心",
+      "sample_n": 12,
+      "scene": "设计方案多版本辅助比选",
+      "pain_point": "设计方案多版本辅助比选",
+      "ai_method": "生成保守、稳健、创新等方案框架，辅助跨专业讨论",
+      "output": "方案比选表",
+      "risk": "高",
+      "human_review": "必须人工复核",
+      "priority": "高",
+      "owner": "待单位确认",
+      "metric": "方案准备时长、跨专业意见覆盖数",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 4,
+      "evidence_quote": "AI审图，AI辅助工作流程和部门间的协作"
+    },
+    {
+      "center": "产品管理中心",
+      "unit": "产品管理中心",
+      "survey_dept": "产品管理中心",
+      "sample_n": 12,
+      "scene": "项目事项跟踪与资料归档",
+      "pain_point": "项目事项跟踪与资料归档",
+      "ai_method": "整理事项、建立资料索引并提示待办",
+      "output": "事项台账、资料索引",
+      "risk": "中",
+      "human_review": "必须人工复核",
+      "priority": "高",
+      "owner": "待单位确认",
+      "metric": "检索时长、遗漏事项数",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 4,
+      "evidence_quote": "每天面对的消息和处理事项很多很杂，是否有AI工具能够帮助整理跟踪"
+    },
+    {
+      "center": "工程管理中心",
+      "unit": "工程管理中心",
+      "survey_dept": "工程管理中心",
+      "sample_n": 9,
+      "scene": "工程报告完善与可视化",
+      "pain_point": "工程报告完善与可视化",
+      "ai_method": "辅助完善汇报结构、生成图表说明和可视化草案",
+      "output": "汇报初稿、图表说明",
+      "risk": "低",
+      "human_review": "人工抽检或定稿",
+      "priority": "中",
+      "owner": "待单位确认",
+      "metric": "汇报编制时长、返工轮次",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 1,
+      "evidence_quote": "报告的完善，以及可视化"
+    },
+    {
+      "center": "工程管理中心",
+      "unit": "工程管理中心",
+      "survey_dept": "工程管理中心",
+      "sample_n": 9,
+      "scene": "工程文件自动识别与整理",
+      "pain_point": "工程文件自动识别与整理",
+      "ai_method": "识别文件关键信息并形成分类索引，人工抽检",
+      "output": "文件索引、信息提取表",
+      "risk": "中",
+      "human_review": "必须人工复核",
+      "priority": "中",
+      "owner": "待单位确认",
+      "metric": "整理时长、抽检准确率",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 1,
+      "evidence_quote": "文件、自动识别"
+    },
+    {
+      "center": "工程管理中心",
+      "unit": "工程管理中心",
+      "survey_dept": "工程管理中心",
+      "sample_n": 9,
+      "scene": "线上流程与数据处理自动化",
+      "pain_point": "线上流程与数据处理自动化",
+      "ai_method": "对固定输入、步骤和输出的流程进行自动化辅助",
+      "output": "自动化流程原型",
+      "risk": "中",
+      "human_review": "必须人工复核",
+      "priority": "中",
+      "owner": "待单位确认",
+      "metric": "人工步骤减少数、处理时长",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 1,
+      "evidence_quote": "线上化流程及数据处理，其实都可以通过改造后，借助AI实现自动化流程"
+    },
+    {
+      "center": "成本合约中心",
+      "unit": "成本合约中心",
+      "survey_dept": "成本合约中心",
+      "sample_n": 9,
+      "scene": "成本分析、清标与清单复核",
+      "pain_point": "成本分析、清标与清单复核",
+      "ai_method": "辅助识别异常项、复核数据逻辑，专业人员确认结论",
+      "output": "异常项清单、复核说明",
+      "risk": "高",
+      "human_review": "必须人工复核",
+      "priority": "高",
+      "owner": "待单位确认",
+      "metric": "复核时长、异常发现数",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 2,
+      "evidence_quote": "成本分析，清标"
+    },
+    {
+      "center": "成本合约中心",
+      "unit": "成本合约中心",
+      "survey_dept": "成本合约中心",
+      "sample_n": 9,
+      "scene": "长报告研读与核心结论提炼",
+      "pain_point": "长报告研读与核心结论提炼",
+      "ai_method": "提炼长文脉络、权责关系和核心结论，保留原文追溯",
+      "output": "简洁版摘要、问题清单",
+      "risk": "中",
+      "human_review": "必须人工复核",
+      "priority": "高",
+      "owner": "待单位确认",
+      "metric": "研读时长、追溯准确率",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 2,
+      "evidence_quote": "阅读提炼、快速翻译"
+    },
+    {
+      "center": "成本合约中心",
+      "unit": "成本合约中心",
+      "survey_dept": "成本合约中心",
+      "sample_n": 9,
+      "scene": "报告函件与PPT初稿",
+      "pain_point": "报告函件与PPT初稿",
+      "ai_method": "辅助搭建结构、润色文字和生成初稿",
+      "output": "报告、函件或PPT初稿",
+      "risk": "低",
+      "human_review": "人工抽检或定稿",
+      "priority": "高",
+      "owner": "待单位确认",
+      "metric": "初稿形成时长、修改轮次",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 3,
+      "evidence_quote": "公文的撰写，ppt优化"
+    },
+    {
+      "center": "财务管理中心",
+      "unit": "财务管理中心",
+      "survey_dept": "财务管理中心",
+      "sample_n": 8,
+      "scene": "财务数据整合与报表分析",
+      "pain_point": "财务数据整合与报表分析",
+      "ai_method": "辅助整合底稿、生成分析说明和报表草案",
+      "output": "分析表、报表说明",
+      "risk": "高",
+      "human_review": "必须人工复核",
+      "priority": "高",
+      "owner": "待单位确认",
+      "metric": "报表编制时长、校验差错数",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 2,
+      "evidence_quote": "数据整合、数据分析"
+    },
+    {
+      "center": "财务管理中心",
+      "unit": "财务管理中心",
+      "survey_dept": "财务管理中心",
+      "sample_n": 8,
+      "scene": "银企对账单归档自动化",
+      "pain_point": "银企对账单归档自动化",
+      "ai_method": "在本地或受控环境中辅助下载、识别和归档对账材料",
+      "output": "归档目录、异常清单",
+      "risk": "高",
+      "human_review": "必须人工复核",
+      "priority": "中",
+      "owner": "待单位确认",
+      "metric": "归档时长、异常识别数",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 1,
+      "evidence_quote": "个人方面，出纳每月需完成银企对账、导出银行盖章版对账单等，是否可以考虑部署本地化AI自动化执行相关归档工作"
+    },
+    {
+      "center": "财务管理中心",
+      "unit": "财务管理中心",
+      "survey_dept": "财务管理中心",
+      "sample_n": 8,
+      "scene": "流程审批与记账辅助",
+      "pain_point": "流程审批与记账辅助",
+      "ai_method": "辅助核对材料完整性和生成提示，不替代审批与记账责任",
+      "output": "材料缺项提示",
+      "risk": "高",
+      "human_review": "必须人工复核",
+      "priority": "高",
+      "owner": "待单位确认",
+      "metric": "缺项发现数、退回次数",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 2,
+      "evidence_quote": "流程化，重复的工作"
+    },
+    {
+      "center": "风险法务中心",
+      "unit": "风险法务中心",
+      "survey_dept": "风险法务中心",
+      "sample_n": 7,
+      "scene": "合同及汇报材料辅助",
+      "pain_point": "合同及汇报材料辅助",
+      "ai_method": "辅助搭建非核心文稿框架、形成会议纪要和摘要",
+      "output": "文稿初稿、会议纪要",
+      "risk": "中",
+      "human_review": "必须人工复核",
+      "priority": "高",
+      "owner": "待单位确认",
+      "metric": "初稿形成时长、人工修改轮次",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 4,
+      "evidence_quote": "各类非核心汇报、呈现文稿的框架搭建"
+    },
+    {
+      "center": "风险法务中心",
+      "unit": "风险法务中心",
+      "survey_dept": "风险法务中心",
+      "sample_n": 7,
+      "scene": "供应商关系与异常预警分析",
+      "pain_point": "供应商关系与异常预警分析",
+      "ai_method": "在合规数据范围内辅助识别异常关系和监督线索",
+      "output": "异常线索清单",
+      "risk": "高",
+      "human_review": "必须人工复核",
+      "priority": "中",
+      "owner": "待单位确认",
+      "metric": "线索发现数、人工核验有效率",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 1,
+      "evidence_quote": "探索建立供应商监督管理系统模型，对异常供应商、投标供应商关系图谱、投标中标等情况进行自动监督与预警分析。同时，探索建立公司舆情监控预警系统"
+    },
+    {
+      "center": "风险法务中心",
+      "unit": "风险法务中心",
+      "survey_dept": "风险法务中心",
+      "sample_n": 7,
+      "scene": "采购成本计划流程数据抓取",
+      "pain_point": "采购成本计划流程数据抓取",
+      "ai_method": "从经授权系统或台账辅助抓取材料状态并提示缺项",
+      "output": "材料状态表、缺项提示",
+      "risk": "高",
+      "human_review": "必须人工复核",
+      "priority": "中",
+      "owner": "待单位确认",
+      "metric": "填报时长、流程退回次数",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 1,
+      "evidence_quote": "系统太不智能，采购、成本、计划各种流程，少一个都付不了款，太复杂了，建议引入ai自动抓取数据填报"
+    },
+    {
+      "center": "运营管理中心",
+      "unit": "运营管理中心",
+      "survey_dept": "运营管理中心",
+      "sample_n": 7,
+      "scene": "周报与报告材料收集编制",
+      "pain_point": "周报与报告材料收集编制",
+      "ai_method": "汇总结构化材料、生成周报和会议材料初稿",
+      "output": "公司周报、会议材料初稿",
+      "risk": "低",
+      "human_review": "人工抽检或定稿",
+      "priority": "高",
+      "owner": "待单位确认",
+      "metric": "收集编制时长、缺项数",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 2,
+      "evidence_quote": "常规性、重复性的会议组织，报告材料收集之类的工作"
+    },
+    {
+      "center": "运营管理中心",
+      "unit": "运营管理中心",
+      "survey_dept": "运营管理中心",
+      "sample_n": 7,
+      "scene": "部门知识库与共性知识共享",
+      "pain_point": "部门知识库与共性知识共享",
+      "ai_method": "建立可检索知识库并辅助问答，明确权限和更新责任",
+      "output": "知识库、问答记录",
+      "risk": "中",
+      "human_review": "必须人工复核",
+      "priority": "高",
+      "owner": "待单位确认",
+      "metric": "检索时长、重复咨询量",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 2,
+      "evidence_quote": "共性知识库共享，有规律的重复性工作，跨专业整合，跟踪督办等"
+    },
+    {
+      "center": "运营管理中心",
+      "unit": "运营管理中心",
+      "survey_dept": "运营管理中心",
+      "sample_n": 7,
+      "scene": "跟踪督办与审批流辅助",
+      "pain_point": "跟踪督办与审批流辅助",
+      "ai_method": "从台账中识别节点、生成提醒和材料预填建议",
+      "output": "督办清单、提醒",
+      "risk": "中",
+      "human_review": "必须人工复核",
+      "priority": "高",
+      "owner": "待单位确认",
+      "metric": "逾期事项数、预填准确率",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 2,
+      "evidence_quote": "共性知识库共享，有规律的重复性工作，跨专业整合，跟踪督办等"
+    },
+    {
+      "center": "综合管理中心",
+      "unit": "综合管理中心",
+      "survey_dept": "综合管理中心",
+      "sample_n": 8,
+      "scene": "公文、通知与文稿初稿",
+      "pain_point": "公文、通知与文稿初稿",
+      "ai_method": "依据已确认格式和制度生成初稿，人工审核定稿",
+      "output": "公文或通知初稿",
+      "risk": "中",
+      "human_review": "必须人工复核",
+      "priority": "高",
+      "owner": "待单位确认",
+      "metric": "初稿形成时长、格式问题数",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 3,
+      "evidence_quote": "公文写作，公司OA材料搜索，程序化制度及部分专业问题"
+    },
+    {
+      "center": "综合管理中心",
+      "unit": "综合管理中心",
+      "survey_dept": "综合管理中心",
+      "sample_n": 8,
+      "scene": "OA材料、制度与党建知识库",
+      "pain_point": "OA材料、制度与党建知识库",
+      "ai_method": "对授权材料建立权限可控的检索和问答能力",
+      "output": "知识库、检索入口",
+      "risk": "中",
+      "human_review": "必须人工复核",
+      "priority": "高",
+      "owner": "待单位确认",
+      "metric": "材料检索时长、问答命中率",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 2,
+      "evidence_quote": "公文写作，公司OA材料搜索，程序化制度及部分专业问题"
+    },
+    {
+      "center": "综合管理中心",
+      "unit": "综合管理中心",
+      "survey_dept": "综合管理中心",
+      "sample_n": 8,
+      "scene": "审批材料辅助与低敏场景规范",
+      "pain_point": "审批材料辅助与低敏场景规范",
+      "ai_method": "优先在低敏场景辅助材料准备和缺项检查",
+      "output": "材料清单、应用边界",
+      "risk": "中",
+      "human_review": "必须人工复核",
+      "priority": "高",
+      "owner": "待单位确认",
+      "metric": "退回次数、低敏场景覆盖数",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 2,
+      "evidence_quote": "低敏性的工作场景适合优先尝试"
+    },
+    {
+      "center": "人力资源中心",
+      "unit": "人力资源中心",
+      "survey_dept": "人力资源中心",
+      "sample_n": 10,
+      "scene": "HR制度与员工高频问题问答",
+      "pain_point": "HR制度与员工高频问题问答",
+      "ai_method": "基于授权制度库回答高频问题，复杂事项转人工",
+      "output": "HR问答助手、问题库",
+      "risk": "高",
+      "human_review": "必须人工复核",
+      "priority": "中",
+      "owner": "待单位确认",
+      "metric": "重复咨询量、转人工准确率",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 1,
+      "evidence_quote": "（一）HR 层面 1.智能问答机器人：解答员工关于考勤、薪酬、福利、请假等高频问题 2.各类制度、通知、公告、会议纪要的初稿撰写 3.员工手册、培训课件、企业文化宣传材料的生…"
+    },
+    {
+      "center": "人力资源中心",
+      "unit": "人力资源中心",
+      "survey_dept": "人力资源中心",
+      "sample_n": 10,
+      "scene": "人力数据分析与可视化",
+      "pain_point": "人力数据分析与可视化",
+      "ai_method": "辅助生成统计分析和可视化说明，严格控制个人信息",
+      "output": "统计报表、分析说明",
+      "risk": "高",
+      "human_review": "必须人工复核",
+      "priority": "高",
+      "owner": "待单位确认",
+      "metric": "报表编制时长、数据校验差错数",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 2,
+      "evidence_quote": "（一）HR 层面 1.智能问答机器人：解答员工关于考勤、薪酬、福利、请假等高频问题 2.各类制度、通知、公告、会议纪要的初稿撰写 3.员工手册、培训课件、企业文化宣传材料的生…"
+    },
+    {
+      "center": "人力资源中心",
+      "unit": "人力资源中心",
+      "survey_dept": "人力资源中心",
+      "sample_n": 10,
+      "scene": "培训课件、制度通知与纪要初稿",
+      "pain_point": "培训课件、制度通知与纪要初稿",
+      "ai_method": "辅助生成培训、通知和纪要初稿",
+      "output": "课件、通知或纪要初稿",
+      "risk": "低",
+      "human_review": "人工抽检或定稿",
+      "priority": "中",
+      "owner": "待单位确认",
+      "metric": "初稿形成时长、采用率",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 1,
+      "evidence_quote": "（一）HR 层面 1.智能问答机器人：解答员工关于考勤、薪酬、福利、请假等高频问题 2.各类制度、通知、公告、会议纪要的初稿撰写 3.员工手册、培训课件、企业文化宣传材料的生…"
+    },
+    {
+      "center": "商办事业部",
+      "unit": "商办事业部",
+      "survey_dept": "商办事业部",
+      "sample_n": 7,
+      "scene": "日常报表与市场信息汇总",
+      "pain_point": "日常报表与市场信息汇总",
+      "ai_method": "辅助汇总市场信息和业务数据，生成报表说明",
+      "output": "报表、市场信息摘要",
+      "risk": "中",
+      "human_review": "必须人工复核",
+      "priority": "高",
+      "owner": "待单位确认",
+      "metric": "报表编制时长、信息覆盖数",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 2,
+      "evidence_quote": "文案撰写、市场动态信息汇总、数据整理等"
+    },
+    {
+      "center": "商办事业部",
+      "unit": "商办事业部",
+      "survey_dept": "商办事业部",
+      "sample_n": 7,
+      "scene": "文档协作与数据处理",
+      "pain_point": "文档协作与数据处理",
+      "ai_method": "辅助文档协作、数据整理和分析说明",
+      "output": "协作文档、分析表",
+      "risk": "低",
+      "human_review": "人工抽检或定稿",
+      "priority": "高",
+      "owner": "待单位确认",
+      "metric": "整理时长、协作返工次数",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 2,
+      "evidence_quote": "多维表格等"
+    },
+    {
+      "center": "商办事业部",
+      "unit": "商办事业部",
+      "survey_dept": "商办事业部",
+      "sample_n": 7,
+      "scene": "流程界面与数据一体化辅助",
+      "pain_point": "流程界面与数据一体化辅助",
+      "ai_method": "梳理跨系统流程和数据需求，形成改造建议",
+      "output": "流程与数据需求清单",
+      "risk": "中",
+      "human_review": "必须人工复核",
+      "priority": "中",
+      "owner": "待单位确认",
+      "metric": "重复录入点数、改造建议数",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 1,
+      "evidence_quote": "公司不同应用系统的流程界面结构，数据统筹一体化处理"
+    },
+    {
+      "center": "商办事业部",
+      "unit": "超总项目公司",
+      "survey_dept": "",
+      "sample_n": 0,
+      "scene": "待访谈确认的项目公司高频减负场景",
+      "pain_point": "待访谈确认的项目公司高频减负场景",
+      "ai_method": "通过访谈确认报表、资料、流程或客户服务等高频工作后再设计方案",
+      "output": "场景确认表",
+      "risk": "待定",
+      "human_review": "人工抽检或定稿",
+      "priority": "中",
+      "owner": "待单位确认",
+      "metric": "完成访谈并确认至少1个候选场景",
+      "status": "待访谈验证",
+      "evidence_type": "待访谈验证",
+      "mention_count": 0,
+      "evidence_quote": ""
+    },
+    {
+      "center": "城市更新事业部",
+      "unit": "城市更新事业部",
+      "survey_dept": "城市更新事业部",
+      "sample_n": 4,
+      "scene": "产权与历史数据辅助梳理",
+      "pain_point": "产权与历史数据辅助梳理",
+      "ai_method": "辅助匹配和梳理授权数据，业务人员复核权属结论",
+      "output": "权属梳理表、疑点清单",
+      "risk": "高",
+      "human_review": "必须人工复核",
+      "priority": "中",
+      "owner": "待单位确认",
+      "metric": "梳理时长、疑点发现数",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 1,
+      "evidence_quote": "产权与历史数据 AI 梳理：自动匹配房产档案、户籍、土地权属，快速锁定产权人，减少权属争议。 补偿方案 AI 测算：按面积、结构、装修、区位自动生成补偿标准，透明可追溯，减少…"
+    },
+    {
+      "center": "城市更新事业部",
+      "unit": "城市更新事业部",
+      "survey_dept": "城市更新事业部",
+      "sample_n": 4,
+      "scene": "补偿方案测算辅助",
+      "pain_point": "补偿方案测算辅助",
+      "ai_method": "依据经确认规则辅助测算和生成追溯说明，不替代决策",
+      "output": "测算草案、追溯说明",
+      "risk": "高",
+      "human_review": "必须人工复核",
+      "priority": "中",
+      "owner": "待单位确认",
+      "metric": "测算时长、复核差异数",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 1,
+      "evidence_quote": "产权与历史数据 AI 梳理：自动匹配房产档案、户籍、土地权属，快速锁定产权人，减少权属争议。 补偿方案 AI 测算：按面积、结构、装修、区位自动生成补偿标准，透明可追溯，减少…"
+    },
+    {
+      "center": "城市更新事业部",
+      "unit": "城市更新事业部",
+      "survey_dept": "城市更新事业部",
+      "sample_n": 4,
+      "scene": "政策沟通与报告材料辅助",
+      "pain_point": "政策沟通与报告材料辅助",
+      "ai_method": "辅助整理政策问答、语音转文字和报告初稿",
+      "output": "政策问答、报告初稿",
+      "risk": "中",
+      "human_review": "必须人工复核",
+      "priority": "高",
+      "owner": "待单位确认",
+      "metric": "材料准备时长、人工纠错数",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 3,
+      "evidence_quote": "PPT文件制作"
+    },
+    {
+      "center": "龙岗安城投公司",
+      "unit": "前期开发部",
+      "survey_dept": "前期开发部",
+      "sample_n": 2,
+      "scene": "Word、PPT与报告制作辅助",
+      "pain_point": "Word、PPT与报告制作辅助",
+      "ai_method": "辅助生成报告结构、文字和演示文稿初稿",
+      "output": "报告或PPT初稿",
+      "risk": "低",
+      "human_review": "人工抽检或定稿",
+      "priority": "高",
+      "owner": "待单位确认",
+      "metric": "初稿形成时长、修改轮次",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 2,
+      "evidence_quote": "办公软件如WPS\\PPT等"
+    },
+    {
+      "center": "龙岗安城投公司",
+      "unit": "前期开发部",
+      "survey_dept": "前期开发部",
+      "sample_n": 2,
+      "scene": "前期数据分析辅助",
+      "pain_point": "前期数据分析辅助",
+      "ai_method": "辅助整理数据和形成分析说明，人工复核结论",
+      "output": "分析表、说明",
+      "risk": "中",
+      "human_review": "必须人工复核",
+      "priority": "中",
+      "owner": "待单位确认",
+      "metric": "分析时长、校验差错数",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 1,
+      "evidence_quote": "数据分析，word、ppt报告制作"
+    },
+    {
+      "center": "龙岗安城投公司",
+      "unit": "工程管理部",
+      "survey_dept": "工程管理部",
+      "sample_n": 4,
+      "scene": "工程数据整理与汇报文件",
+      "pain_point": "工程数据整理与汇报文件",
+      "ai_method": "辅助整理数据、生成汇报文件和分析说明",
+      "output": "汇报材料、分析表",
+      "risk": "低",
+      "human_review": "人工抽检或定稿",
+      "priority": "高",
+      "owner": "待单位确认",
+      "metric": "汇报编制时长、数据缺漏数",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 3,
+      "evidence_quote": "整理数据，汇报文件；查询相关专业和管理知识"
+    },
+    {
+      "center": "龙岗安城投公司",
+      "unit": "工程管理部",
+      "survey_dept": "工程管理部",
+      "sample_n": 4,
+      "scene": "专业与管理知识查询",
+      "pain_point": "专业与管理知识查询",
+      "ai_method": "辅助检索公开或授权知识，保留来源并人工确认",
+      "output": "知识摘要、来源清单",
+      "risk": "中",
+      "human_review": "必须人工复核",
+      "priority": "中",
+      "owner": "待单位确认",
+      "metric": "检索时长、来源可追溯率",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 1,
+      "evidence_quote": "整理数据，汇报文件；查询相关专业和管理知识"
+    },
+    {
+      "center": "龙岗安城投公司",
+      "unit": "成本合约部",
+      "survey_dept": "成本合约部",
+      "sample_n": 4,
+      "scene": "测算、数据统计与逻辑校核",
+      "pain_point": "测算、数据统计与逻辑校核",
+      "ai_method": "辅助测算、统计和逻辑检查，专业人员复核",
+      "output": "测算表、校核清单",
+      "risk": "高",
+      "human_review": "必须人工复核",
+      "priority": "高",
+      "owner": "待单位确认",
+      "metric": "测算时长、校核差异数",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 2,
+      "evidence_quote": "测算可以运用ai数据"
+    },
+    {
+      "center": "龙岗安城投公司",
+      "unit": "成本合约部",
+      "survey_dept": "成本合约部",
+      "sample_n": 4,
+      "scene": "报告、议案与PPT辅助",
+      "pain_point": "报告、议案与PPT辅助",
+      "ai_method": "辅助搭建结构、润色文字和生成初稿",
+      "output": "报告、议案或PPT初稿",
+      "risk": "低",
+      "human_review": "人工抽检或定稿",
+      "priority": "高",
+      "owner": "待单位确认",
+      "metric": "初稿形成时长、修改轮次",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 2,
+      "evidence_quote": "1、报告润色及修改 2、自我疑惑讨论 3、数据统计"
+    },
+    {
+      "center": "龙岗安城投公司",
+      "unit": "综合管理部",
+      "survey_dept": "综合管理部",
+      "sample_n": 2,
+      "scene": "综合办公与数据校核辅助",
+      "pain_point": "综合办公与数据校核辅助",
+      "ai_method": "辅助处理重复办公事项和数据校核，人工确认结果",
+      "output": "办公材料、校核清单",
+      "risk": "中",
+      "human_review": "必须人工复核",
+      "priority": "高",
+      "owner": "待单位确认",
+      "metric": "处理时长、差错数",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 2,
+      "evidence_quote": "个人层面觉得适合辅助办公，提高效率"
+    },
+    {
+      "center": "龙岗安城投公司",
+      "unit": "综合管理部",
+      "survey_dept": "综合管理部",
+      "sample_n": 2,
+      "scene": "跨专业测算事项需求确认",
+      "pain_point": "跨专业测算事项需求确认",
+      "ai_method": "先通过访谈明确职责边界和数据权限，再决定是否试点",
+      "output": "需求边界清单",
+      "risk": "高",
+      "human_review": "必须人工复核",
+      "priority": "中",
+      "owner": "待单位确认",
+      "metric": "职责与数据边界确认完成度",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 1,
+      "evidence_quote": "投资测算、财务做账及人工薪酬测算等人为容易误差的事项，能避免误差且提升工作效率"
+    },
+    {
+      "center": "龙岗安城投公司",
+      "unit": "财务风控部",
+      "survey_dept": "财务风控部",
+      "sample_n": 1,
+      "scene": "审批及执行辅助",
+      "pain_point": "审批及执行辅助",
+      "ai_method": "辅助检查材料完整性和执行节点，不替代审批责任",
+      "output": "缺项提示、执行清单",
+      "risk": "高",
+      "human_review": "必须人工复核",
+      "priority": "中",
+      "owner": "待单位确认",
+      "metric": "退回次数、遗漏事项数",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 1,
+      "evidence_quote": "审批及执行可作为辅助"
+    },
+    {
+      "center": "项目管理单元",
+      "unit": "岳盟项目部",
+      "survey_dept": "岳盟项目部",
+      "sample_n": 7,
+      "scene": "汇报材料、方案与函件初稿",
+      "pain_point": "汇报材料、方案与函件初稿",
+      "ai_method": "辅助生成项目汇报、方案和往来函件初稿",
+      "output": "汇报、方案或函件初稿",
+      "risk": "中",
+      "human_review": "必须人工复核",
+      "priority": "高",
+      "owner": "待单位确认",
+      "metric": "初稿形成时长、修改轮次",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 3,
+      "evidence_quote": "日常的汇报素材"
+    },
+    {
+      "center": "项目管理单元",
+      "unit": "岳盟项目部",
+      "survey_dept": "岳盟项目部",
+      "sample_n": 7,
+      "scene": "流程跟踪与工作提醒",
+      "pain_point": "流程跟踪与工作提醒",
+      "ai_method": "基于项目台账生成节点提醒和待办清单",
+      "output": "提醒、待办清单",
+      "risk": "中",
+      "human_review": "必须人工复核",
+      "priority": "高",
+      "owner": "待单位确认",
+      "metric": "逾期事项数、提醒覆盖率",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 2,
+      "evidence_quote": "方案模板制作，方案、文稿优化，流程跟踪与提醒，数据分析与推送"
+    },
+    {
+      "center": "项目管理单元",
+      "unit": "岳盟项目部",
+      "survey_dept": "岳盟项目部",
+      "sample_n": 7,
+      "scene": "培训资料与可视化表格",
+      "pain_point": "培训资料与可视化表格",
+      "ai_method": "辅助制作培训资料和可视化工作表",
+      "output": "培训资料、可视化表格",
+      "risk": "低",
+      "human_review": "人工抽检或定稿",
+      "priority": "高",
+      "owner": "待单位确认",
+      "metric": "制作时长、使用反馈",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 2,
+      "evidence_quote": "制作培训资料和培训ppt"
+    },
+    {
+      "center": "项目管理单元",
+      "unit": "春和府项目部",
+      "survey_dept": "春和府项目部",
+      "sample_n": 4,
+      "scene": "公司制度指引智能助手",
+      "pain_point": "公司制度指引智能助手",
+      "ai_method": "基于授权制度建立检索问答助手，明确引用来源",
+      "output": "制度问答助手",
+      "risk": "中",
+      "human_review": "必须人工复核",
+      "priority": "中",
+      "owner": "待单位确认",
+      "metric": "检索时长、回答可追溯率",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 1,
+      "evidence_quote": "配置投喂过公司制度指引的智能体助手"
+    },
+    {
+      "center": "项目管理单元",
+      "unit": "春和府项目部",
+      "survey_dept": "春和府项目部",
+      "sample_n": 4,
+      "scene": "工作资料整理与汇报材料",
+      "pain_point": "工作资料整理与汇报材料",
+      "ai_method": "辅助整理资料并生成汇报初稿",
+      "output": "资料索引、汇报初稿",
+      "risk": "低",
+      "human_review": "人工抽检或定稿",
+      "priority": "中",
+      "owner": "待单位确认",
+      "metric": "整理时长、材料缺漏数",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 1,
+      "evidence_quote": "工作资料整理以及汇报材料"
+    },
+    {
+      "center": "项目管理单元",
+      "unit": "春和府项目部",
+      "survey_dept": "春和府项目部",
+      "sample_n": 4,
+      "scene": "方案初稿与跨专业知识链接",
+      "pain_point": "方案初稿与跨专业知识链接",
+      "ai_method": "辅助形成方案框架并链接相关知识点，人工确认",
+      "output": "方案初稿、知识清单",
+      "risk": "中",
+      "human_review": "必须人工复核",
+      "priority": "高",
+      "owner": "待单位确认",
+      "metric": "方案准备时长、知识覆盖数",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 2,
+      "evidence_quote": "主要用于文件格式书写、整理和跨专业知识点的链接"
+    },
+    {
+      "center": "项目管理单元",
+      "unit": "岁宝项目部",
+      "survey_dept": "岁宝项目部",
+      "sample_n": 3,
+      "scene": "信息检索、汇总与摘要",
+      "pain_point": "信息检索、汇总与摘要",
+      "ai_method": "辅助检索和整理信息，保留来源并人工核验",
+      "output": "信息摘要、来源清单",
+      "risk": "中",
+      "human_review": "必须人工复核",
+      "priority": "高",
+      "owner": "待单位确认",
+      "metric": "检索时长、来源可追溯率",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 2,
+      "evidence_quote": "借助搜索快速查询，高效摄取有效信息"
+    },
+    {
+      "center": "项目管理单元",
+      "unit": "岁宝项目部",
+      "survey_dept": "岁宝项目部",
+      "sample_n": 3,
+      "scene": "数据整理与报告制作",
+      "pain_point": "数据整理与报告制作",
+      "ai_method": "辅助整理数据并形成报告初稿",
+      "output": "数据表、报告初稿",
+      "risk": "低",
+      "human_review": "人工抽检或定稿",
+      "priority": "高",
+      "owner": "待单位确认",
+      "metric": "整理时长、修改轮次",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 2,
+      "evidence_quote": "辅助完成方案、报告、整理数据，信息整合"
+    },
+    {
+      "center": "项目管理单元",
+      "unit": "木头龙项目部",
+      "survey_dept": "木头龙项目部",
+      "sample_n": 1,
+      "scene": "知识学习与快速检索辅助",
+      "pain_point": "知识学习与快速检索辅助",
+      "ai_method": "围绕项目高频知识开展检索、摘要和学习辅助，先确认具体业务需求",
+      "output": "知识摘要、学习清单",
+      "risk": "低",
+      "human_review": "人工抽检或定稿",
+      "priority": "中",
+      "owner": "待单位确认",
+      "metric": "完成访谈并确认业务应用场景",
+      "status": "待单位确认",
+      "evidence_type": "单位开放题归纳",
+      "mention_count": 1,
+      "evidence_quote": "学习更高效"
+    }
+  ],
+  "common_themes": [
+    {
+      "theme": "报告、文案与PPT",
+      "keywords": [
+        "报告",
+        "文案",
+        "PPT",
+        "文稿",
+        "函件",
+        "公文",
+        "文字"
+      ],
+      "example": "报告初稿、方案框架、函件与PPT",
+      "count": 48,
+      "percent": 35.8,
+      "quotes": [
+        "小红书文案可以通过AI来开阔思路",
+        "做PPT，生成图片，归纳总结，形成文案"
+      ]
+    },
+    {
+      "theme": "数据处理与分析",
+      "keywords": [
+        "数据",
+        "统计",
+        "分析",
+        "测算",
+        "可视化"
+      ],
+      "example": "数据整理、统计分析、测算与可视化",
+      "count": 42,
+      "percent": 31.3,
+      "quotes": [
+        "1、利用AI对项目进度或审批进度进行监控和提醒，提升整体运营效率和处理流程的效率 2、利用AI工具生成员工个人业务数据库，提高资料调取速度和总结归纳能力 3、利用AI工具进行…",
+        "在文案撰写、信息整理、数据处理和创意构思等环节，AI能显著提升效率。比如用AI快速生成会议纪要、提炼报告要点、辅助撰写方案初稿，都能大幅节省时间，让我们把精力投入到更核心的工…"
+      ]
+    },
+    {
+      "theme": "培训、制度与员工问答",
+      "keywords": [
+        "培训",
+        "制度",
+        "问答",
+        "员工手册"
+      ],
+      "example": "培训材料、制度助手、高频问题问答",
+      "count": 41,
+      "percent": 30.6,
+      "quotes": [
+        "公文写作，公司OA材料搜索，程序化制度及部分专业问题",
+        "先做基础培训再挖掘可能性"
+      ]
+    },
+    {
+      "theme": "知识检索与资料管理",
+      "keywords": [
+        "知识库",
+        "检索",
+        "搜索",
+        "资料",
+        "归档",
+        "信息"
+      ],
+      "example": "制度问答、资料索引、信息摘要",
+      "count": 26,
+      "percent": 19.4,
+      "quotes": [
+        "收集整理资料",
+        "1、利用AI对项目进度或审批进度进行监控和提醒，提升整体运营效率和处理流程的效率 2、利用AI工具生成员工个人业务数据库，提高资料调取速度和总结归纳能力 3、利用AI工具进行…"
+      ]
+    },
+    {
+      "theme": "流程、审批与跟踪提醒",
+      "keywords": [
+        "流程",
+        "审批",
+        "跟踪",
+        "提醒",
+        "督办",
+        "节点"
+      ],
+      "example": "节点提醒、材料缺项与督办清单",
+      "count": 22,
+      "percent": 16.4,
+      "quotes": [
+        "1、利用AI对项目进度或审批进度进行监控和提醒，提升整体运营效率和处理流程的效率 2、利用AI工具生成员工个人业务数据库，提高资料调取速度和总结归纳能力 3、利用AI工具进行…",
+        "AI审图，AI辅助工作流程和部门间的协作"
+      ]
+    },
+    {
+      "theme": "自动化与重复工作减负",
+      "keywords": [
+        "重复",
+        "自动化",
+        "自动",
+        "有规律"
+      ],
+      "example": "固定流程自动化、重复性事务处理",
+      "count": 16,
+      "percent": 11.9,
+      "quotes": [
+        "常规性、重复性的会议组织，报告材料收集之类的工作",
+        "流程化，重复的工作"
+      ]
+    },
+    {
+      "theme": "图像、视频与营销创意",
+      "keywords": [
+        "图片",
+        "图像",
+        "视频",
+        "创意",
+        "宣传"
+      ],
+      "example": "宣传图文、创意方向与多版本草案",
+      "count": 9,
+      "percent": 6.7,
+      "quotes": [
+        "做PPT，生成图片，归纳总结，形成文案",
+        "1、利用AI对项目进度或审批进度进行监控和提醒，提升整体运营效率和处理流程的效率 2、利用AI工具生成员工个人业务数据库，提高资料调取速度和总结归纳能力 3、利用AI工具进行…"
+      ]
+    },
+    {
+      "theme": "专业审查、核验与风险识别",
+      "keywords": [
+        "审核",
+        "审图",
+        "复核",
+        "核验",
+        "风险",
+        "异常",
+        "合规"
+      ],
+      "example": "专业问题清单、异常线索、合规提醒",
+      "count": 8,
+      "percent": 6.0,
+      "quotes": [
+        "AI审图，AI辅助工作流程和部门间的协作",
+        "探索建立供应商监督管理系统模型，对异常供应商、投标供应商关系图谱、投标中标等情况进行自动监督与预警分析。同时，探索建立公司舆情监控预警系统"
+      ]
+    },
+    {
+      "theme": "会议纪要与行动项",
+      "keywords": [
+        "会议纪要",
+        "会议组织",
+        "待办"
+      ],
+      "example": "会议纪要、待办事项与行动方案",
+      "count": 8,
+      "percent": 6.0,
+      "quotes": [
+        "1、利用AI对项目进度或审批进度进行监控和提醒，提升整体运营效率和处理流程的效率 2、利用AI工具生成员工个人业务数据库，提高资料调取速度和总结归纳能力 3、利用AI工具进行…",
+        "在文案撰写、信息整理、数据处理和创意构思等环节，AI能显著提升效率。比如用AI快速生成会议纪要、提炼报告要点、辅助撰写方案初稿，都能大幅节省时间，让我们把精力投入到更核心的工…"
+      ]
+    }
+  ],
+  "priority_pilots": [
+    {
+      "rank": 1,
+      "center": "运营管理中心",
+      "unit": "运营管理中心",
+      "project": "公司周报与报告材料收集编制",
+      "business": 5,
+      "frequency": 5,
+      "readiness": 4,
+      "risk_control": 5,
+      "replication": 5,
+      "risk": "低",
+      "score": 4.8,
+      "sample_n": 0,
+      "evidence_type": "问卷意见归纳",
+      "metric": "待单位确认"
+    },
+    {
+      "rank": 2,
+      "center": "综合管理中心",
+      "unit": "综合管理中心",
+      "project": "公文、OA材料与制度知识库",
+      "business": 5,
+      "frequency": 5,
+      "readiness": 4,
+      "risk_control": 4,
+      "replication": 5,
+      "risk": "中",
+      "score": 4.65,
+      "sample_n": 0,
+      "evidence_type": "问卷意见归纳",
+      "metric": "待单位确认"
+    },
+    {
+      "rank": 3,
+      "center": "人力资源中心",
+      "unit": "人力资源中心",
+      "project": "HR制度问答与培训材料助手",
+      "business": 5,
+      "frequency": 5,
+      "readiness": 4,
+      "risk_control": 3,
+      "replication": 5,
+      "risk": "高",
+      "score": 4.5,
+      "sample_n": 0,
+      "evidence_type": "问卷意见归纳",
+      "metric": "待单位确认"
+    },
+    {
+      "rank": 4,
+      "center": "营销管理中心",
+      "unit": "营销管理中心",
+      "project": "营销方案、例行报告与合规提醒",
+      "business": 5,
+      "frequency": 4,
+      "readiness": 4,
+      "risk_control": 4,
+      "replication": 4,
+      "risk": "中",
+      "score": 4.3,
+      "sample_n": 0,
+      "evidence_type": "问卷意见归纳",
+      "metric": "待单位确认"
+    },
+    {
+      "rank": 5,
+      "center": "营销管理中心",
+      "unit": "项目营销团队",
+      "project": "项目进度提醒与业务资料库",
+      "business": 5,
+      "frequency": 4,
+      "readiness": 4,
+      "risk_control": 4,
+      "replication": 4,
+      "risk": "中",
+      "score": 4.3,
+      "sample_n": 0,
+      "evidence_type": "问卷意见归纳",
+      "metric": "待单位确认"
+    },
+    {
+      "rank": 6,
+      "center": "财务管理中心",
+      "unit": "财务管理中心",
+      "project": "财务数据整合与对账归档辅助",
+      "business": 5,
+      "frequency": 4,
+      "readiness": 3,
+      "risk_control": 2,
+      "replication": 4,
+      "risk": "高",
+      "score": 3.8,
+      "sample_n": 0,
+      "evidence_type": "问卷意见归纳",
+      "metric": "待单位确认"
+    },
+    {
+      "rank": 7,
+      "center": "成本合约中心",
+      "unit": "成本合约中心",
+      "project": "成本分析、清标与清单复核辅助",
+      "business": 5,
+      "frequency": 4,
+      "readiness": 3,
+      "risk_control": 2,
+      "replication": 4,
+      "risk": "高",
+      "score": 3.8,
+      "sample_n": 0,
+      "evidence_type": "问卷意见归纳",
+      "metric": "待单位确认"
+    },
+    {
+      "rank": 8,
+      "center": "产品管理中心",
+      "unit": "产品管理中心",
+      "project": "设计图纸与规范问题辅助检查",
+      "business": 5,
+      "frequency": 3,
+      "readiness": 3,
+      "risk_control": 2,
+      "replication": 4,
+      "risk": "高",
+      "score": 3.6,
+      "sample_n": 12,
+      "evidence_type": "单位开放题归纳",
+      "metric": "复核覆盖率、问题发现数"
+    },
+    {
+      "rank": 9,
+      "center": "工程管理中心",
+      "unit": "工程管理中心",
+      "project": "工程文件识别与汇报可视化",
+      "business": 4,
+      "frequency": 4,
+      "readiness": 4,
+      "risk_control": 4,
+      "replication": 4,
+      "risk": "中",
+      "score": 4.0,
+      "sample_n": 0,
+      "evidence_type": "问卷意见归纳",
+      "metric": "待单位确认"
+    },
+    {
+      "rank": 10,
+      "center": "项目管理单元",
+      "unit": "岳盟项目部",
+      "project": "项目流程跟踪与汇报材料助手",
+      "business": 4,
+      "frequency": 4,
+      "readiness": 4,
+      "risk_control": 4,
+      "replication": 5,
+      "risk": "中",
+      "score": 4.15,
+      "sample_n": 0,
+      "evidence_type": "问卷意见归纳",
+      "metric": "待单位确认"
+    },
+    {
+      "rank": 11,
+      "center": "投资发展中心",
+      "unit": "投资发展中心",
+      "project": "项目信息汇总与真实性核验清单",
+      "business": 5,
+      "frequency": 3,
+      "readiness": 3,
+      "risk_control": 3,
+      "replication": 4,
+      "risk": "中",
+      "score": 3.75,
+      "sample_n": 0,
+      "evidence_type": "问卷意见归纳",
+      "metric": "待单位确认"
+    },
+    {
+      "rank": 12,
+      "center": "风险法务中心",
+      "unit": "风险法务中心",
+      "project": "采购流程数据抓取与异常线索辅助",
+      "business": 5,
+      "frequency": 3,
+      "readiness": 2,
+      "risk_control": 2,
+      "replication": 4,
+      "risk": "高",
+      "score": 3.4,
+      "sample_n": 0,
+      "evidence_type": "问卷意见归纳",
+      "metric": "待单位确认"
+    }
+  ],
+  "competition": {
+    "mainline": [
+      "调研诊断",
+      "分层培训",
+      "场景摸排",
+      "项目试点",
+      "AI大赛",
+      "成果转化"
+    ],
+    "targets": {
+      "candidate_projects": "全部正式业务单位至少形成1个候选项目",
+      "focus_pilots": "筛选8至12个重点试点",
+      "finalists": "形成6至8个决赛项目",
+      "replicable_results": "沉淀不少于3个可复制成果"
+    },
+    "scoring": [
+      {
+        "dimension": "业务价值",
+        "weight": "30%"
+      },
+      {
+        "dimension": "实际提效证据",
+        "weight": "25%"
+      },
+      {
+        "dimension": "可复制性",
+        "weight": "15%"
+      },
+      {
+        "dimension": "安全合规",
+        "weight": "15%"
+      },
+      {
+        "dimension": "用户体验",
+        "weight": "10%"
+      },
+      {
+        "dimension": "成果完整度",
+        "weight": "5%"
+      }
+    ]
+  }
+}
