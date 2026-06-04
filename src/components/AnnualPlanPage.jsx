@@ -10,15 +10,15 @@ export default function AnnualPlanPage() {
   return (
     <div className="page">
       <PageHeader
-        title="年度主线"
-        description="以调研诊断为起点，以可验证、可复制的业务成果为年度工作出口。"
-        meta="2026年6月至12月 · 六阶段推进"
+        title="竹网行动推进节奏"
+        description="以兴趣驱动、以点带面、渐进深入为原则，从个人探索推进到全员应用。"
+        meta="2026年6月至12月 · 会后节点推进"
       />
 
       <section className="panel annual-roadmap-panel">
         <SectionHeader
-          title="六阶段推进路线"
-          description="当前处于启动期，后续阶段均以完成前置交付为进入条件。"
+          title="五个节点推进路线"
+          description="当前重点是破土启动：协会招募、工具支持、薪火破冰和单位方向确认。"
         />
         <div className="roadmap">
           {annualMainline.map((stage, index) => (
@@ -52,8 +52,8 @@ export default function AnnualPlanPage() {
       <section className="annual-two-column">
         <article className="panel">
           <SectionHeader
-            title="年度目标"
-            description="目标用于指导资源投入和阶段验收，不代表当前完成进度。"
+            title="执行目标"
+            description="目标用于对齐资源投入和阶段验收，不代表当前完成进度。"
           />
           <div className="target-list">
             {targets.map((target) => (
@@ -75,7 +75,7 @@ export default function AnnualPlanPage() {
         <article className="panel">
           <SectionHeader
             title="组织协同"
-            description="协会提供方法、资源和协作支持，不替代各单位管理职责。"
+            description="协会播种、薪火催化、平台协同，各单位仍承担业务探索和最终责任。"
           />
           <div className="role-list">
             {roles.map((item) => (

@@ -2,28 +2,26 @@ import {
   Building2,
   Flag,
   Layers3,
-  Trophy,
-  UsersRound,
+  Sparkles,
 } from "lucide-react";
 import {
   evidenceFacts,
+  executionRhythm,
   portalMeta,
-  priorityPilots,
   riskCounts,
   targets,
+  timelineColumns,
   timelineRows,
   annualMainline,
 } from "../data/portalData";
 import {
   PageHeader,
-  RiskTag,
   SectionHeader,
   StatCard,
   TextLink,
 } from "./Ui";
 
-const targetIcons = [Building2, Layers3, Trophy, Flag];
-const months = ["6月", "7月", "8月", "9月", "10月", "11月", "12月"];
+const targetIcons = [Layers3, Sparkles, Building2, Flag];
 
 export default function OverviewPage({ onNavigate }) {
   const riskTotal = riskCounts.低 + riskCounts.中 + riskCounts.高 + riskCounts.待定;
@@ -36,8 +34,8 @@ export default function OverviewPage({ onNavigate }) {
   return (
     <div className="page">
       <PageHeader
-        title="2026年度工作总览"
-        description="围绕真实业务场景，推动学习、实践、竞赛与成果转化。"
+        title="竹网行动工作总览"
+        description="按照领导确定方案，以AI兴趣协会、薪火计划和平台协同支撑推动公司AI应用落地。"
         meta={`${portalMeta.period} · ${portalMeta.phase}`}
       />
 
@@ -68,33 +66,29 @@ export default function OverviewPage({ onNavigate }) {
       <section className="overview-grid overview-grid-primary">
         <article className="panel">
           <SectionHeader
-            title="项目优先级"
-            description="重点试点建议，进入试点前仍需访谈确认。"
+            title="会后行动清单"
+            description="按会后2周、1个月、2个月和年底节点推进，先启动兴趣和方向，再沉淀标杆与OA模块候选。"
             action={
-              <TextLink onClick={() => onNavigate("projects")}>查看全部项目池</TextLink>
+              <TextLink onClick={() => onNavigate("projects")}>查看探索台账</TextLink>
             }
           />
           <div className="table-wrap">
             <table>
               <thead>
                 <tr>
-                  <th>序号</th>
-                  <th>申报单位</th>
-                  <th>项目名称</th>
-                  <th>风险等级</th>
-                  <th>优先级评分</th>
+                  <th>节点</th>
+                  <th>工作线</th>
+                  <th>关键动作</th>
+                  <th>输出</th>
                 </tr>
               </thead>
               <tbody>
-                {priorityPilots.slice(0, 5).map((pilot) => (
-                  <tr key={pilot.rank}>
-                    <td>{pilot.rank}</td>
-                    <td>{pilot.unit}</td>
-                    <td className="cell-strong">{pilot.project}</td>
-                    <td>
-                      <RiskTag risk={pilot.risk} />
-                    </td>
-                    <td className="score-cell">{pilot.score.toFixed(2)}</td>
+                {executionRhythm.slice(0, 6).map((item) => (
+                  <tr key={`${item.time}-${item.line}`}>
+                    <td className="cell-strong">{item.time}</td>
+                    <td>{item.line}</td>
+                    <td>{item.action}</td>
+                    <td>{item.output}</td>
                   </tr>
                 ))}
               </tbody>
@@ -104,14 +98,14 @@ export default function OverviewPage({ onNavigate }) {
 
         <article className="panel timeline-panel">
           <SectionHeader
-            title="6月至12月培训与交付时间线"
-            description="以阶段交付连接培训、试点、大赛和成果转化。"
+            title="竹网行动推进节奏"
+            description="从破土到扎根，按节点完成方向确认、计划提交、交流复盘和平台固化。"
           />
           <div className="timeline-grid">
             <div className="timeline-head timeline-label-cell" />
-            {months.map((month) => (
-              <div className="timeline-head" key={month}>
-                {month}
+            {timelineColumns.map((column) => (
+              <div className="timeline-head" key={column}>
+                {column}
               </div>
             ))}
             {timelineRows.map((row) => (
@@ -135,7 +129,7 @@ export default function OverviewPage({ onNavigate }) {
         <article className="panel">
           <SectionHeader
             title="调研与需求证据"
-            description="门户中的目标和行动均以调研证据为起点。"
+            description="问卷作为场景支撑材料保留，领导方案是当前执行主线。"
           />
           <div className="evidence-list">
             {evidenceFacts.map((fact) => (
@@ -177,7 +171,7 @@ export default function OverviewPage({ onNavigate }) {
         <article className="panel">
           <SectionHeader
             title="风险分布"
-            description="当前项目池按场景数据边界和专业责任进行初步分级。"
+            description="探索方向仍按数据边界和专业责任进行初步分级。"
           />
           <div className="risk-chart-layout">
             <div className="donut" style={riskStyle}>

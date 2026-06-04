@@ -83,8 +83,8 @@ export default function ProjectsPage() {
   return (
     <div className="page">
       <PageHeader
-        title="AI场景项目池"
-        description="从真实工作问题出发，按价值、风险与证据推进候选场景。"
+        title="单位探索台账"
+        description="把各单位问卷证据转化为AI对接人、2-3个探索方向、一页纸计划和OA模块候选。"
       />
 
       <section className="project-summary-grid">
@@ -92,16 +92,16 @@ export default function ProjectsPage() {
           icon={ClipboardList}
           value={projectScenes.length}
           suffix="个"
-          label="候选场景"
+          label="候选方向"
           note="来自单位开放题归纳"
           tone="blue"
         />
         <StatCard
           icon={Target}
-          value={12}
-          suffix="个"
-          label="重点试点建议"
-          note="进入试点前仍需访谈确认"
+          value="2-3"
+          suffix="个/单位"
+          label="探索方向"
+          note="会后2周确认"
           tone="teal"
         />
         <StatCard
@@ -109,15 +109,15 @@ export default function ProjectsPage() {
           value={23}
           suffix="个"
           label="正式业务单位"
-          note="全部单位至少形成1个候选项目"
+          note="全部进入探索网络"
           tone="blue"
         />
         <StatCard
           icon={Flag}
-          value="8至12"
-          suffix="个"
-          label="年度重点试点目标"
-          note="形成前后对比证据"
+          value="1"
+          suffix="份/单位"
+          label="一页纸计划"
+          note="会后1个月提交"
           tone="green"
         />
       </section>
@@ -130,12 +130,12 @@ export default function ProjectsPage() {
         </div>
         <div className="filters">
           <label className="search-field">
-            <span className="sr-only">搜索项目</span>
+            <span className="sr-only">搜索探索方向</span>
             <Search size={17} aria-hidden="true" />
             <input
               value={search}
-              onChange={(event) => updateFilter(setSearch, event.target.value)}
-              placeholder="搜索项目名称、痛点或申报单位"
+            onChange={(event) => updateFilter(setSearch, event.target.value)}
+              placeholder="搜索探索方向、痛点或申报单位"
             />
           </label>
           <FilterSelect
@@ -171,8 +171,8 @@ export default function ProjectsPage() {
       <section className="project-workspace">
         <article className="panel project-table-panel">
           <SectionHeader
-            title="候选场景清单"
-            description="风险分级和验证指标需在单位访谈中进一步确认。"
+            title="探索方向清单"
+            description="风险分级、支持需求和OA候选状态需在单位交流中进一步确认。"
           />
           {pageProjects.length ? (
             <>
@@ -180,7 +180,7 @@ export default function ProjectsPage() {
                 <table className="project-table">
                   <thead>
                     <tr>
-                      <th>项目名称</th>
+                      <th>探索方向</th>
                       <th>申报单位</th>
                       <th>风险等级</th>
                       <th>优先级</th>
@@ -264,12 +264,14 @@ export default function ProjectsPage() {
               <DetailItem label="AI辅助方式" value={selectedProject.ai_method} />
               <DetailItem label="输出成果" value={selectedProject.output} />
               <DetailItem label="人工复核" value={selectedProject.human_review} />
+              <DetailItem label="需要支持" value={selectedProject.support_need} />
+              <DetailItem label="OA模块状态" value={selectedProject.oa_candidate} />
               <DetailItem
                 label="数据边界"
                 value={
                   selectedProject.risk === "高"
                     ? "需在受控环境中验证，明确权限、专业复核和必要审批。"
-                    : "试点前确认数据范围、工具环境和保留记录要求。"
+                    : "探索前确认数据范围、工具环境和保留记录要求。"
                 }
               />
               <DetailItem label="验证指标" value={selectedProject.metric} />
@@ -287,8 +289,8 @@ export default function ProjectsPage() {
 
       <section className="panel risk-summary-panel">
         <SectionHeader
-          title="项目池风险分布"
-          description="待定场景需在访谈中完成风险分级。"
+          title="探索方向风险分布"
+          description="待定方向需在单位交流或访谈中完成风险分级。"
         />
         <div className="risk-bars">
           {[

@@ -22,8 +22,8 @@ export default function SafetyPage() {
       <section className="safety-hero">
         <ShieldCheck size={34} aria-hidden="true" />
         <div>
-          <strong>安全是项目准入条件，不是事后补充项。</strong>
-          <p>所有候选场景在试点前均需确认数据范围、工具环境、权限和人工复核点。</p>
+          <strong>安全是探索准入条件，不是事后补充项。</strong>
+          <p>所有探索方向在交流和固化前均需确认数据范围、工具环境、权限和人工复核点。</p>
         </div>
       </section>
 
@@ -48,8 +48,8 @@ export default function SafetyPage() {
 
         <article className="panel">
           <SectionHeader
-            title="试点准入条件"
-            description="风险不可控即暂停，证据不足不进入决赛。"
+            title="探索准入条件"
+            description="风险不可控即暂停；成熟场景先复盘复制，再进入OA模块候选。"
           />
           <div className="gate-list">
             {projectGates.map((gate) => (

@@ -14,15 +14,15 @@ export default function TrainingPage() {
   return (
     <div className="page">
       <PageHeader
-        title="培训计划"
-        description="培训不是工具展示，而是帮助员工围绕真实工作问题形成可使用、可复核、可参赛的成果。"
-        meta="服务单位场景摸排、重点试点和年度AI大赛"
+        title="薪火计划"
+        description="薪火计划连接AI兴趣协会与各单位，把员工需求转化为可上手、可录屏、可复用的内部分享。"
+        meta="服务工具破冰、单位探索和OA模块候选沉淀"
       />
 
       <section className="panel">
         <SectionHeader
-          title="分层参与机制"
-          description="全员基础认知、单位骨干场景实训、成熟项目团队进阶辅导。"
+          title="参与机制"
+          description="从全员破冰到内部分享，再到单位计划和标杆复制。"
         />
         <div className="training-layer-grid">
           {trainingLayers.map((layer, index) => {
@@ -45,15 +45,15 @@ export default function TrainingPage() {
       <section className="training-two-column">
         <article className="panel">
           <SectionHeader
-            title="课程安排"
-            description="课程与年度项目推进同步衔接。"
+            title="分享安排"
+            description="每月2-3场内部分享，线下带电脑实操，全程录屏归档。"
           />
           <div className="table-wrap">
             <table>
               <thead>
                 <tr>
                   <th>时间</th>
-                  <th>课程主题</th>
+                  <th>分享主题</th>
                   <th>主要实操</th>
                   <th>服务成果</th>
                 </tr>
@@ -75,7 +75,7 @@ export default function TrainingPage() {
         <article className="panel">
           <SectionHeader
             title="培训需求证据"
-            description="问卷需求比例用于确定首期课程优先顺序。"
+            description="问卷需求比例用于确定薪火计划首期主题顺序。"
           />
           <div className="need-bars">
             {learningNeeds.map((need) => (

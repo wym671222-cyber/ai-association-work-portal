@@ -20,9 +20,9 @@ import { portalMeta } from "./data/portalData";
 
 const navigation = [
   { id: "overview", label: "工作总览", icon: LayoutDashboard },
-  { id: "annual", label: "年度主线", icon: Route },
-  { id: "projects", label: "项目池", icon: ClipboardList },
-  { id: "training", label: "培训计划", icon: GraduationCap },
+  { id: "annual", label: "推进节奏", icon: Route },
+  { id: "projects", label: "探索台账", icon: ClipboardList },
+  { id: "training", label: "薪火计划", icon: GraduationCap },
   { id: "resources", label: "资料中心", icon: BookOpen },
   { id: "safety", label: "安全合规", icon: ShieldCheck },
 ];
@@ -56,7 +56,7 @@ export default function App() {
           </div>
           <div>
             <strong>AI协会工作门户</strong>
-            <span>协会秘书组</span>
+            <span>竹网行动</span>
           </div>
           <button
             className="mobile-nav-close"
@@ -111,8 +111,8 @@ export default function App() {
             <div className="user-block">
               <div>协</div>
               <span>
-                <strong>协会秘书组</strong>
-                <small>工作台</small>
+              <strong>协会秘书组</strong>
+              <small>工作台</small>
               </span>
             </div>
           </div>
