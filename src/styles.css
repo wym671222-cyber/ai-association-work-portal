@@ -1014,8 +1014,8 @@ tbody tr:hover {
 
 .project-workspace {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 340px;
-  gap: 14px;
+  grid-template-columns: minmax(0, 1fr) minmax(340px, 390px);
+  gap: 16px;
   align-items: start;
   margin-bottom: 14px;
 }
@@ -1025,11 +1025,11 @@ tbody tr:hover {
 }
 
 .project-table-wrap {
-  max-height: 615px;
+  max-height: none;
 }
 
 .project-table {
-  min-width: 700px;
+  min-width: 760px;
   table-layout: fixed;
   font-size: 11px;
 }
@@ -1064,11 +1064,13 @@ tbody tr:hover {
 
 .project-table th,
 .project-table td {
-  padding: 9px;
+  padding: 7px 8px;
+  line-height: 1.35;
 }
 
 .project-table td {
   overflow-wrap: anywhere;
+  vertical-align: middle;
 }
 
 .selected-row {
@@ -1126,12 +1128,22 @@ tbody tr:hover {
 .project-detail-panel {
   position: sticky;
   top: 80px;
-  padding: 0;
+  overflow: visible;
+}
+
+.project-detail-panel .section-header {
+  margin-bottom: 12px;
+}
+
+.detail-card {
   overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #ffffff;
 }
 
 .detail-head {
-  padding: 18px;
+  padding: 12px;
   border-bottom: 1px solid var(--line);
   background: #fbfdff;
 }
@@ -1143,10 +1155,10 @@ tbody tr:hover {
 }
 
 .detail-head h2 {
-  margin: 7px 0 11px;
+  margin: 5px 0 9px;
   color: var(--ink-strong);
-  font-size: 17px;
-  line-height: 1.45;
+  font-size: 15px;
+  line-height: 1.4;
 }
 
 .detail-tags {
@@ -1155,9 +1167,28 @@ tbody tr:hover {
   gap: 6px;
 }
 
+.detail-tags .tag {
+  white-space: normal;
+}
+
+.detail-body {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  padding: 10px;
+  background: #fbfdff;
+}
+
 .detail-item {
-  padding: 13px 18px;
-  border-bottom: 1px solid var(--line);
+  min-width: 0;
+  padding: 8px 9px;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  background: #ffffff;
+}
+
+.detail-wide {
+  grid-column: 1 / -1;
 }
 
 .detail-item strong,
@@ -1168,14 +1199,15 @@ tbody tr:hover {
 
 .detail-item p,
 .detail-evidence p {
-  margin: 5px 0 0;
+  margin: 4px 0 0;
   color: var(--muted);
   font-size: 11px;
-  line-height: 1.65;
+  line-height: 1.5;
 }
 
 .detail-evidence {
-  padding: 13px 18px 16px;
+  padding: 10px 12px 12px;
+  border-top: 1px solid var(--line);
   background: #f8fafc;
 }
 

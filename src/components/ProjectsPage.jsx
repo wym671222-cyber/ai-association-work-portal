@@ -21,7 +21,7 @@ import {
   StatusTag,
 } from "./Ui";
 
-const PAGE_SIZE = 8;
+const PAGE_SIZE = 15;
 
 function uniqueValues(key) {
   return [...new Set(projectScenes.map((project) => project[key]).filter(Boolean))].sort(
@@ -78,6 +78,13 @@ export default function ProjectsPage() {
     setPriority("全部");
     setStatus("全部");
     setPage(1);
+    setSelectedId(projectScenes[0]?.id);
+  }
+
+  function goToPage(nextPage) {
+    const nextActivePage = Math.min(Math.max(1, nextPage), totalPages);
+    setPage(nextActivePage);
+    setSelectedId(filteredProjects[(nextActivePage - 1) * PAGE_SIZE]?.id);
   }
 
   return (
@@ -134,7 +141,7 @@ export default function ProjectsPage() {
             <Search size={17} aria-hidden="true" />
             <input
               value={search}
-            onChange={(event) => updateFilter(setSearch, event.target.value)}
+              onChange={(event) => updateFilter(setSearch, event.target.value)}
               placeholder="搜索探索方向、痛点或申报单位"
             />
           </label>
@@ -223,20 +230,20 @@ export default function ProjectsPage() {
               </div>
               <div className="pagination">
                 <span>
-                  共 {filteredProjects.length} 条，第 {activePage} / {totalPages} 页
+                  共 {filteredProjects.length} 条，每页 {PAGE_SIZE} 条，第 {activePage} / {totalPages} 页
                 </span>
                 <div>
                   <button
                     type="button"
                     disabled={activePage === 1}
-                    onClick={() => setPage((current) => Math.max(1, current - 1))}
+                    onClick={() => goToPage(activePage - 1)}
                   >
                     上一页
                   </button>
                   <button
                     type="button"
                     disabled={activePage === totalPages}
-                    onClick={() => setPage((current) => Math.min(totalPages, current + 1))}
+                    onClick={() => goToPage(activePage + 1)}
                   >
                     下一页
                   </button>
@@ -249,8 +256,12 @@ export default function ProjectsPage() {
         </article>
 
         <aside className="panel project-detail-panel">
+          <SectionHeader
+            title="方向详情"
+            description="与左侧清单同步，点击方向查看核心信息。"
+          />
           {selectedProject ? (
-            <>
+            <div className="detail-card">
               <div className="detail-head">
                 <span>{selectedProject.unit}</span>
                 <h2>{selectedProject.scene}</h2>
@@ -260,27 +271,30 @@ export default function ProjectsPage() {
                   <StatusTag status={selectedProject.status} />
                 </div>
               </div>
-              <DetailItem label="业务痛点" value={selectedProject.pain_point} />
-              <DetailItem label="AI辅助方式" value={selectedProject.ai_method} />
-              <DetailItem label="输出成果" value={selectedProject.output} />
-              <DetailItem label="人工复核" value={selectedProject.human_review} />
-              <DetailItem label="需要支持" value={selectedProject.support_need} />
-              <DetailItem label="OA模块状态" value={selectedProject.oa_candidate} />
-              <DetailItem
-                label="数据边界"
-                value={
-                  selectedProject.risk === "高"
-                    ? "需在受控环境中验证，明确权限、专业复核和必要审批。"
-                    : "探索前确认数据范围、工具环境和保留记录要求。"
-                }
-              />
-              <DetailItem label="验证指标" value={selectedProject.metric} />
+              <div className="detail-body">
+                <DetailItem label="业务痛点" value={selectedProject.pain_point} />
+                <DetailItem label="人工复核" value={selectedProject.human_review} />
+                <DetailItem label="输出成果" value={selectedProject.output} />
+                <DetailItem label="需要支持" value={selectedProject.support_need} />
+                <DetailItem label="OA模块状态" value={selectedProject.oa_candidate} />
+                <DetailItem label="验证指标" value={selectedProject.metric} />
+                <DetailItem label="AI辅助方式" value={selectedProject.ai_method} wide />
+                <DetailItem
+                  label="数据边界"
+                  value={
+                    selectedProject.risk === "高"
+                      ? "需在受控环境中验证，明确权限、专业复核和必要审批。"
+                      : "探索前确认数据范围、工具环境和保留记录要求。"
+                  }
+                  wide
+                />
+              </div>
               <div className="detail-evidence">
                 <strong>证据说明</strong>
                 <p>{selectedProject.evidence_type}</p>
                 <span>问卷样本 n={selectedProject.sample_n}</span>
               </div>
-            </>
+            </div>
           ) : (
             <EmptyState description="选择一个项目后查看详细信息。" />
           )}
@@ -332,9 +346,9 @@ function FilterSelect({ label, value, onChange, options }) {
   );
 }
 
-function DetailItem({ label, value }) {
+function DetailItem({ label, value, wide = false }) {
   return (
-    <div className="detail-item">
+    <div className={`detail-item ${wide ? "detail-wide" : ""}`}>
       <strong>{label}</strong>
       <p>{value}</p>
     </div>
