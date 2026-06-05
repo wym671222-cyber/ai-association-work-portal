@@ -8,12 +8,15 @@
     "build": "vite build && node scripts/copy-resources.mjs",
     "deploy:local": "npm run build && node scripts/deploy-local.mjs",
     "prepare:pages": "npm run build && node scripts/prepare-pages.mjs",
-    "preview": "vite preview --host 0.0.0.0"
+    "preview": "vite preview --host 0.0.0.0",
+    "serve:portal": "node server/server.mjs",
+    "start": "node server/server.mjs"
   },
   "dependencies": {
     "lucide-react": "^1.17.0",
     "react": "^19.2.7",
-    "react-dom": "^19.2.7"
+    "react-dom": "^19.2.7",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.7.0",

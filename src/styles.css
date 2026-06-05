@@ -397,6 +397,21 @@ main {
   background: #f5f9fc;
 }
 
+.button-primary {
+  border: 1px solid #15739d;
+  color: #ffffff;
+  background: #1679a5;
+}
+
+.button-primary:hover {
+  background: #11698f;
+}
+
+.button:disabled {
+  opacity: 0.62;
+  cursor: not-allowed;
+}
+
 .mainline-strip {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(128px, 1fr));
@@ -1012,6 +1027,109 @@ tbody tr:hover {
   box-shadow: 0 0 0 3px rgba(46, 117, 182, 0.08);
 }
 
+.ledger-action-bar {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto auto;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: var(--shadow);
+}
+
+.ledger-action-bar > div:first-child {
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.ledger-action-bar strong {
+  color: var(--ink-strong);
+  font-size: 12px;
+}
+
+.mode-pill {
+  display: inline-flex;
+  align-items: center;
+  min-height: 24px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  color: var(--structure);
+  background: #eef6fb;
+  font-size: 11px;
+  font-weight: 750;
+}
+
+.mode-server {
+  color: var(--progress);
+  background: #edf7f0;
+}
+
+.mode-local {
+  color: var(--caution);
+  background: #fff8e8;
+}
+
+.mode-loading {
+  color: var(--pending);
+  background: #f3f5f7;
+}
+
+.ledger-notice,
+.ledger-error {
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.ledger-notice {
+  color: var(--progress);
+}
+
+.ledger-error {
+  color: var(--risk);
+}
+
+.password-inline {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.password-inline input {
+  width: 160px;
+  min-height: 34px;
+  padding: 0 9px;
+  border: 1px solid var(--line-strong);
+  border-radius: 7px;
+  color: var(--ink);
+  background: #ffffff;
+  font-size: 12px;
+  outline: none;
+}
+
+.ledger-actions,
+.detail-action-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.ledger-actions .button,
+.detail-command {
+  min-height: 34px;
+  padding: 0 11px;
+  white-space: nowrap;
+}
+
 .project-workspace {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(340px, 390px);
@@ -1203,6 +1321,77 @@ tbody tr:hover {
   color: var(--muted);
   font-size: 11px;
   line-height: 1.5;
+}
+
+.edit-detail-card {
+  overflow: visible;
+}
+
+.edit-field-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  padding: 10px;
+  background: #fbfdff;
+}
+
+.readonly-id-field,
+.edit-field {
+  min-width: 0;
+  display: grid;
+  gap: 5px;
+  padding: 8px 9px;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  background: #ffffff;
+}
+
+.readonly-id-field {
+  grid-column: 1 / -1;
+}
+
+.readonly-id-field strong,
+.edit-field span {
+  color: var(--ink-strong);
+  font-size: 11px;
+  font-weight: 750;
+}
+
+.readonly-id-field span {
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.edit-field-wide {
+  grid-column: 1 / -1;
+}
+
+.edit-field input,
+.edit-field select,
+.edit-field textarea {
+  width: 100%;
+  min-height: 32px;
+  padding: 7px 8px;
+  border: 1px solid var(--line-strong);
+  border-radius: 6px;
+  color: var(--ink);
+  background: #ffffff;
+  font-size: 11px;
+  line-height: 1.45;
+  outline: none;
+}
+
+.edit-field textarea {
+  min-height: 76px;
+  resize: vertical;
+}
+
+.edit-field input:focus,
+.edit-field select:focus,
+.edit-field textarea:focus,
+.password-inline input:focus {
+  border-color: #91b3d0;
+  box-shadow: 0 0 0 3px rgba(46, 117, 182, 0.08);
 }
 
 .detail-evidence {
@@ -1849,6 +2038,15 @@ tbody tr:hover {
     position: static;
   }
 
+  .ledger-action-bar {
+    grid-template-columns: 1fr;
+  }
+
+  .password-inline,
+  .ledger-actions {
+    justify-content: flex-start;
+  }
+
   .filters {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -1978,6 +2176,40 @@ tbody tr:hover {
   }
 
   .search-field {
+    grid-column: auto;
+  }
+
+  .ledger-actions {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .ledger-actions .button,
+  .detail-action-group,
+  .detail-command,
+  .password-inline,
+  .password-inline input {
+    width: 100%;
+  }
+
+  .password-inline {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .detail-action-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .edit-field-grid,
+  .detail-body {
+    grid-template-columns: 1fr;
+  }
+
+  .detail-wide,
+  .edit-field-wide,
+  .readonly-id-field {
     grid-column: auto;
   }
 
