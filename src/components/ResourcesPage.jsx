@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react";
 import { FileArchive, FolderOpen, Search } from "lucide-react";
 import {
+  portalMeta,
   resourceCategories,
   resourceHref,
   resources,
@@ -31,8 +32,8 @@ export default function ResourcesPage() {
     <div className="page">
       <PageHeader
         title="资料中心"
-        description="集中查看领导方案、竹网行动修订稿、薪火计划、单位探索台账和调研支撑资料。"
-        meta="当前版本以20260604按领导方案修订稿为准"
+        description="集中查看0609完成稿、领导方案、竹网行动修订稿、薪火计划、单位探索台账和调研支撑资料。"
+        meta={`当前制度版本：${portalMeta.versionStatus}`}
       />
 
       <section className="panel resource-filter-panel">

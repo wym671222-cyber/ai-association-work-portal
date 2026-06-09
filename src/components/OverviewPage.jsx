@@ -7,8 +7,13 @@ import {
 import {
   evidenceFacts,
   executionRhythm,
+  activityMechanisms,
+  governanceHighlights,
   portalMeta,
+  resourceSupportTiers,
   riskCounts,
+  roles,
+  safetyRedlines,
   targets,
   timelineColumns,
   timelineRows,
@@ -34,9 +39,9 @@ export default function OverviewPage({ onNavigate }) {
   return (
     <div className="page">
       <PageHeader
-        title="竹网行动工作总览"
-        description="按照领导确定方案，以AI兴趣协会、薪火计划和平台协同支撑推动公司AI应用落地。"
-        meta={`${portalMeta.period} · ${portalMeta.phase}`}
+        title={portalMeta.documentTitle}
+        description="根据0609完成稿更新：协会以解决实际工作问题、提升工作效率、沉淀可复用成果为导向，建立会员管理、活动开展、资源支持、成果孵化和安全边界的常态化运行机制。"
+        meta={`${portalMeta.versionStatus} · ${portalMeta.period} · ${portalMeta.phase}`}
       />
 
       <section className="mainline-strip" aria-label="年度工作主线">
@@ -66,8 +71,8 @@ export default function OverviewPage({ onNavigate }) {
       <section className="overview-grid overview-grid-primary">
         <article className="panel">
           <SectionHeader
-            title="会后行动清单"
-            description="按会后2周、1个月、2个月和年底节点推进，先启动兴趣和方向，再沉淀标杆与OA模块候选。"
+            title="制度执行清单"
+            description="从会员加入、活动运行、资源支持、经费使用到成果发布，首页按完成稿条款口径展示。"
             action={
               <TextLink onClick={() => onNavigate("projects")}>查看探索台账</TextLink>
             }
@@ -76,8 +81,8 @@ export default function OverviewPage({ onNavigate }) {
             <table>
               <thead>
                 <tr>
-                  <th>节点</th>
-                  <th>工作线</th>
+                  <th>事项</th>
+                  <th>条款</th>
                   <th>关键动作</th>
                   <th>输出</th>
                 </tr>
@@ -98,8 +103,8 @@ export default function OverviewPage({ onNavigate }) {
 
         <article className="panel timeline-panel">
           <SectionHeader
-            title="竹网行动推进节奏"
-            description="从破土到扎根，按节点完成方向确认、计划提交、交流复盘和平台固化。"
+            title="竹网行动推进逻辑"
+            description="章程明确以“破土、拔节、成林、扎根”承接兴趣启动、以点带面、经验共创和系统能力固化。"
           />
           <div className="timeline-grid">
             <div className="timeline-head timeline-label-cell" />
@@ -128,8 +133,121 @@ export default function OverviewPage({ onNavigate }) {
       <section className="overview-grid overview-grid-secondary">
         <article className="panel">
           <SectionHeader
-            title="调研与需求证据"
-            description="问卷作为场景支撑材料保留，领导方案是当前执行主线。"
+            title="制度速览"
+            description="完成稿把协会定位为学习交流、应用孵化、成果推广三位一体的内部组织。"
+          />
+          <div className="safety-summary">
+            {governanceHighlights.map((item, index) => (
+              <div key={item.title}>
+                <span
+                  className={`safety-dot ${
+                    index === 0 ? "safety-blue" : index === 1 ? "safety-amber" : "safety-red"
+                  }`}
+                />
+                <strong>{item.title}</strong>
+                <p>{item.content}</p>
+              </div>
+            ))}
+          </div>
+        </article>
+
+        <article className="panel">
+          <SectionHeader
+            title="成员职责闭环"
+            description="完成稿明确会长、副会长、会员、技术指导和教练顾问的定位与输出。"
+          />
+          <div className="role-list">
+            {roles.slice(0, 4).map((item) => (
+              <div className="role-row" key={item.role}>
+                <Building2 size={18} aria-hidden="true" />
+                <div>
+                  <strong>{item.role}</strong>
+                  <p>{item.responsibility}</p>
+                  <span>关键输出：{item.output}</span>
+                </div>
+              </div>
+            ))}
+          </div>
+        </article>
+
+        <article className="panel">
+          <SectionHeader
+            title="安全边界"
+            description="AI应用只作辅助，不替代正式审批、专业判断和责任签署。"
+            action={<TextLink onClick={() => onNavigate("safety")}>查看完整规则</TextLink>}
+          />
+          <div className="safety-summary">
+            {safetyRedlines.slice(0, 3).map((item, index) => (
+              <div key={item.title}>
+                <span
+                  className={`safety-dot ${
+                    index === 0 ? "safety-blue" : index === 1 ? "safety-amber" : "safety-red"
+                  }`}
+                />
+                <strong>{item.title}</strong>
+                <p>{item.requirement}</p>
+              </div>
+            ))}
+          </div>
+        </article>
+      </section>
+
+      <section className="overview-grid overview-grid-primary">
+        <article className="panel">
+          <SectionHeader
+            title="活动运行机制"
+            description="固定双周分享和单周交流，再按需要扩展专题培训、教练辅导、应用路演等活动。"
+          />
+          <div className="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>活动类型</th>
+                  <th>运行要求</th>
+                  <th>产出</th>
+                </tr>
+              </thead>
+              <tbody>
+                {activityMechanisms.map((item) => (
+                  <tr key={item.type}>
+                    <td className="cell-strong">{item.type}</td>
+                    <td>{item.rule}</td>
+                    <td>{item.output}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </article>
+
+        <article className="panel">
+          <SectionHeader
+            title="资源支持与成果要求"
+            description="工具额度、会员订阅、API额度和教练辅导按“使用换分享、资源换成果”分层支持。"
+            action={<TextLink onClick={() => onNavigate("resources")}>查看资料中心</TextLink>}
+          />
+          <div className="safety-summary">
+            {resourceSupportTiers.map((item, index) => (
+              <div key={item.audience}>
+                <span
+                  className={`safety-dot ${
+                    index === 0 ? "safety-blue" : index === 1 ? "safety-amber" : "safety-red"
+                  }`}
+                />
+                <strong>{item.audience}</strong>
+                <p>{item.support}</p>
+                <p>成果要求：{item.requirement}</p>
+              </div>
+            ))}
+          </div>
+        </article>
+      </section>
+
+      <section className="overview-grid overview-grid-secondary">
+        <article className="panel">
+          <SectionHeader
+            title="调研证据仍保留"
+            description="问卷数据继续作为单位场景、培训主题和探索台账的支撑材料。"
           />
           <div className="evidence-list">
             {evidenceFacts.map((fact) => (
@@ -139,32 +257,6 @@ export default function OverviewPage({ onNavigate }) {
                 <small>{fact.note}</small>
               </div>
             ))}
-          </div>
-          <TextLink onClick={() => onNavigate("resources")}>查看调研分析资料</TextLink>
-        </article>
-
-        <article className="panel">
-          <SectionHeader
-            title="安全边界"
-            description="AI应用不替代业务责任主体。"
-            action={<TextLink onClick={() => onNavigate("safety")}>查看完整规则</TextLink>}
-          />
-          <div className="safety-summary">
-            <div>
-              <span className="safety-dot safety-blue" />
-              <strong>数据与保密</strong>
-              <p>不得上传涉密、敏感、个人信息或未经授权数据。</p>
-            </div>
-            <div>
-              <span className="safety-dot safety-amber" />
-              <strong>专业判断</strong>
-              <p>重要结论和专业事项必须由责任人员判断和审批。</p>
-            </div>
-            <div>
-              <span className="safety-dot safety-red" />
-              <strong>人工复核</strong>
-              <p>保留来源、关键提示、修改记录和验证证据。</p>
-            </div>
           </div>
         </article>
 
@@ -201,6 +293,30 @@ export default function OverviewPage({ onNavigate }) {
                 <span>待定</span>
                 <strong>{riskCounts.待定}</strong>
               </div>
+            </div>
+          </div>
+        </article>
+
+        <article className="panel">
+          <SectionHeader
+            title="成果管理"
+            description="年底评价强调真实使用、降低阻力和可复制经验，不单纯展示工具效果。"
+          />
+          <div className="safety-summary">
+            <div>
+              <span className="safety-dot safety-blue" />
+              <strong>成果类型</strong>
+              <p>工具成果、模板成果、案例成果、培训成果和平台成果。</p>
+            </div>
+            <div>
+              <span className="safety-dot safety-amber" />
+              <strong>知识库建设</strong>
+              <p>沉淀AI基础知识、工具教程、提示词模板、工作流模板、会员分享和常见问题。</p>
+            </div>
+            <div>
+              <span className="safety-dot safety-red" />
+              <strong>年度评价</strong>
+              <p>形成年度优秀会员、优秀分享人、年度知识库和标杆案例清单。</p>
             </div>
           </div>
         </article>

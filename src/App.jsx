@@ -86,7 +86,7 @@ export default function App() {
         <div className="sidebar-footer">
           <strong>{portalMeta.company}</strong>
           <span>{portalMeta.period}</span>
-          <span>版本状态：审阅稿</span>
+          <span>版本状态：{portalMeta.versionStatus}</span>
         </div>
       </aside>
 

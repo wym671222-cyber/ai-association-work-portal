@@ -1,6 +1,7 @@
 import { CheckCircle2, Circle, Milestone, UsersRound } from "lucide-react";
 import {
   annualMainline,
+  portalMeta,
   roles,
   targets,
 } from "../data/portalData";
@@ -11,8 +12,8 @@ export default function AnnualPlanPage() {
     <div className="page">
       <PageHeader
         title="竹网行动推进节奏"
-        description="以兴趣驱动、以点带面、渐进深入为原则，从个人探索推进到全员应用。"
-        meta="2026年6月至12月 · 会后节点推进"
+        description="以兴趣驱动、以点带面、渐进深入为原则，从会员自愿参与推进到应用孵化、成果推广和系统能力固化。"
+        meta={`${portalMeta.versionStatus} · ${portalMeta.period}`}
       />
 
       <section className="panel annual-roadmap-panel">
@@ -74,8 +75,8 @@ export default function AnnualPlanPage() {
 
         <article className="panel">
           <SectionHeader
-            title="组织协同"
-            description="协会播种、薪火催化、平台协同，各单位仍承担业务探索和最终责任。"
+            title="组织架构与职责"
+            description="完成稿明确会长、副会长、会员、技术指导和教练顾问的产生机制与主要职责。"
           />
           <div className="role-list">
             {roles.map((item) => (
